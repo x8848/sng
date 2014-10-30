@@ -44,16 +44,13 @@ public class ScreenCast extends Thread {
             Date date = new Date();
             DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd_HH_mm_ss");
 
-            String newFileName = "/images/" + dateFormat.format(date) + ".png";
-
             Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
             Rectangle screenRect = new Rectangle(screenSize);
-
             BufferedImage capture = robot.createScreenCapture(screenRect);
 
-            ImageIO.write(capture, "png", new File(newFileName));
+            String newFileName = "/images/" + dateFormat.format(date) + ".png";
 
-            System.out.println("new " + newFileName);
+            ImageIO.write(capture, "png", new File(newFileName));
 
         } catch (IOException e) {
         }
