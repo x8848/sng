@@ -1,6 +1,7 @@
 package com.sng.Table;
 
-public class Button {
+public class Cards {
+
     private int X;
     private int Y;
 
@@ -12,10 +13,10 @@ public class Button {
         return Y;
     }
 
-    public static final int width = 40;
-    public static final int height = 6;
+    public static final int width = 16;
+    public static final int height = 33;
 
-    public Button(int x, int y) {
+    public Cards(int x, int y) {
         this.X = x;
         this.Y = y;
     }

@@ -1,5 +1,8 @@
 package com.sng.image;
 
+import com.sng.Table.Cards;
+import com.sng.Table.PlayerCards;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -9,13 +12,17 @@ import java.io.IOException;
 public class BlackWhite {
     public static void main(String[] args) {
         try {
-            for (int i = 0; i < 10; i++) {
-                BufferedImage image = ImageIO.read(new File("images/table/" + i + ".png"));
-                BufferedImage blackWhite = getBlackWhite(image);
-                ImageIO.write(blackWhite, "png", new File("images/table/bw/" + i + ".png"));
-            }
+            BufferedImage image = ImageIO.read(new File("images/out247.png"));
+            PlayerCards playerCards = new PlayerCards();
+            int i = 0;
+            for (Cards cards : playerCards.getCardsList()) {
+                i++;
+                System.out.print(" "+i + " is " + playerCards.getState(image, i).toString());
 
-        } catch (IOException e) {
+
+            }
+       } catch (IOException e) {
+            System.out.println("exception");
         }
 
 

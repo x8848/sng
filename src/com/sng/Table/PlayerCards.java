@@ -1,36 +1,63 @@
 package com.sng.Table;
 
+import com.sng.image.BlackWhite;
+
+import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PlayerCards {
-    int playerCardsWidth = 82;
-    int playerCardsHeight = 34;
 
-    int player1CardsX = 293;
-    int player1CardsY = 487;
+    List<Cards> cardsList;
 
-    int player2CardsX = 90;
-    int player2CardsY = 327;
+    public PlayerCards() throws IOException {
+        cardsList = new ArrayList<Cards>();
 
-    int player3CardsX = 90;
-    int player3CardsY = 178;
+        Cards player1Cards = new Cards(293, 488);
+        Cards player2Cards = new Cards(90, 328);
+        Cards player3Cards = new Cards(90, 179);
+        Cards player4Cards = new Cards(406, 47);
+        Cards player5Cards = new Cards(760, 47);
+        Cards player6Cards = new Cards(1105, 179);
+        Cards player7Cards = new Cards(1105, 328);
+        Cards player8Cards = new Cards(873, 488);
 
-    int player4CardsX = 406;
-    int player4CardsY = 46;
-
-    int player5CardsX = 760;
-    int player5CardsY = 46;
-
-    int player6CardsX = 1105;
-    int player6CardsY = 178;
-
-    int player7CardsX = 1105;
-    int player7CardsY = 327;
-
-    int player8CardsX = 873;
-    int player8CardsY = 487;
-
-    void checkCards(BufferedImage image) {
+        cardsList.add(player1Cards);
+        cardsList.add(player2Cards);
+        cardsList.add(player3Cards);
+        cardsList.add(player4Cards);
+        cardsList.add(player5Cards);
+        cardsList.add(player6Cards);
+        cardsList.add(player7Cards);
+        cardsList.add(player8Cards);
     }
 
+    public List<Cards> getCardsList() {
+        return cardsList;
+    }
+
+    public State getState(BufferedImage image, int seat) throws IOException {
+        State state = State.OUT;
+        Cards cards = cardsList.get(seat - 1);
+        BufferedImage stateImage = image.getSubimage(cards.getX(), cards.getY(),
+                Cards.width, Cards.height);
+
+        //stateImage = BlackWhite.getBlackWhite(stateImage);
+//        ImageIO.write(stateImage, "png", new File("images/table/" + seat + ".png"));
+
+        BufferedImage in = ImageIO.read(new File("images/table/in/" + seat + ".png"));
+
+        if (BlackWhite.imagesAreEqual(stateImage, in)) {
+            return State.IN;
+        }
+
+        BufferedImage fold = ImageIO.read(new File("images/table/fold/" + seat + ".png"));
+        if (BlackWhite.imagesAreEqual(stateImage, fold)) {
+            return State.FOLD;
+        }
+        return state;
+    }
 }
