@@ -1,6 +1,7 @@
-package com.sng.Table;
+package com.sng.screen;
 
-import com.sng.image.BlackWhite;
+import com.sng.image.CheckImage;
+import com.sng.screen.figures.Button;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -12,8 +13,9 @@ import java.util.List;
 public class PlayerButton {
 
     List<Button> buttonList;
+    private BufferedImage buttonImage = ImageIO.read(new File("images/table/button.png"));
 
-    public PlayerButton() {
+    public PlayerButton() throws IOException {
         buttonList = new ArrayList<Button>();
 
         Button player0Button = new Button(498, 465);
@@ -40,17 +42,11 @@ public class PlayerButton {
 
     public boolean checkButton(BufferedImage image, int seat) throws IOException {
         Button button = buttonList.get(seat);
-        BufferedImage checkImage = image.getSubimage(button.getX(), button.getY(),
+        BufferedImage check = image.getSubimage(button.getX(), button.getY(),
                 Button.width, Button.height);
+        check = CheckImage.makeBnW(check);
 
-        checkImage = BlackWhite.getBlackWhite(checkImage);
-        //     ImageIO.write(checkImage, "png", new File("images/table/button.png"));
-
-        BufferedImage buttonImage = ImageIO.read(new File("images/table/button.png"));
-
-        ImageIO.write(checkImage, "png", new File("images/table/button.png"));
-
-        if (BlackWhite.imagesAreEqual(checkImage, buttonImage)) {
+        if (CheckImage.areEqual(check, buttonImage)) {
             return true;
         }
         return false;

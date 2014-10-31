@@ -1,6 +1,8 @@
-package com.sng.Table;
+package com.sng.screen;
 
-import com.sng.image.BlackWhite;
+import com.sng.image.CheckImage;
+import com.sng.screen.figures.Cards;
+import com.sng.screen.figures.State;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -9,11 +11,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlayerCards {
+public class PlayerState {
 
     private List<Cards> cardsList;
 
-    public PlayerCards() throws IOException {
+    public PlayerState() throws IOException {
         cardsList = new ArrayList<Cards>();
 
         Cards player1Cards = new Cards(293, 488);
@@ -45,17 +47,14 @@ public class PlayerCards {
         BufferedImage stateImage = image.getSubimage(cards.getX(), cards.getY(),
                 Cards.width, Cards.height);
 
-//        stateImage = BlackWhite.getBlackWhite(stateImage);
-//        ImageIO.write(stateImage, "png", new File("images/table/" + seat + ".png"));
-
         BufferedImage in = ImageIO.read(new File("images/table/in/" + seat + ".png"));
 
-        if (BlackWhite.imagesAreEqual(stateImage, in)) {
+        if (CheckImage.areEqual(stateImage, in)) {
             return State.IN;
         }
 
         BufferedImage fold = ImageIO.read(new File("images/table/fold/" + seat + ".png"));
-        if (BlackWhite.imagesAreEqual(stateImage, fold)) {
+        if (CheckImage.areEqual(stateImage, fold)) {
             return State.FOLD;
         }
         return state;

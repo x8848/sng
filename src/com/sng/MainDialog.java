@@ -4,7 +4,7 @@ import com.sng.image.ScreenCast;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainDialog {
     public static void main(String[] args) {
         ScreenCast capture = new ScreenCast();
 

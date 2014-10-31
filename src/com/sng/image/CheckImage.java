@@ -1,29 +1,12 @@
 package com.sng.image;
 
-import com.sng.Table.PlayerBet;
-import com.sng.Table.PlayerStack;
-
-import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 
-public class BlackWhite {
-    public static void main(String[] args) {
-        try {
+public class CheckImage {
 
-            // make stack numbers b and w
 
-            BufferedImage image = ImageIO.read(new File("images/start.png"));
-
-            System.out.println(new PlayerStack().getStack(image,1));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static boolean imagesAreEqual(BufferedImage image1, BufferedImage image2) {
+    public static boolean areEqual(BufferedImage image1, BufferedImage image2) {
         if (image1.getWidth() != image2.getWidth() || image1.getHeight() != image2.getHeight()) {
             return false;
         }
@@ -37,7 +20,7 @@ public class BlackWhite {
         return true;
     }
 
-    public static BufferedImage getBlackWhite(BufferedImage image) {
+    public static BufferedImage makeBnW(BufferedImage image) {
         BufferedImage blackWhite = new BufferedImage(image.getWidth(), image.getHeight(),
                 BufferedImage.TYPE_BYTE_BINARY);
 

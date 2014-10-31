@@ -1,6 +1,7 @@
-package com.sng.Table;
+package com.sng.screen;
 
-import com.sng.image.BlackWhite;
+import com.sng.image.CheckImage;
+import com.sng.screen.figures.Bet;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -11,7 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.sng.Table.Bet.*;
+import static com.sng.screen.figures.Bet.*;
 
 public class PlayerBet {
 
@@ -21,16 +22,16 @@ public class PlayerBet {
     Bet bank;
     Map<String, BufferedImage> numbers = new HashMap<String, BufferedImage>();
     BufferedImage comma;
-    private static boolean checkComma = false;
+    private static boolean checkComma;
 
     private int betX;
     private String betValue;
-    private boolean isItPot = false;
+    private boolean isItPot;
 
     public PlayerBet() throws IOException {
         Bet player0Bet = new Bet(613, 447);
         Bet player1Bet = new Bet(375, 447);
-        Bet player2Bet = new Bet(304, 371);
+        Bet player2Bet = new Bet(312, 371);
         Bet player3Bet = new Bet(312, 280);
         Bet player4Bet = new Bet(489, 193);
         Bet player5Bet = new Bet(721, 193);
@@ -79,6 +80,7 @@ public class PlayerBet {
     }
 
     private int getBet(BufferedImage image, Bet bet) throws IOException {
+        checkComma = false;
 
         int treeCharX = (isItPot) ? 5 : 4;    // $ xxx
         int fourCharX = (isItPot) ? 12 : 11;  // $ x,xxx
@@ -119,9 +121,9 @@ public class PlayerBet {
             BufferedImage check = image.getSubimage(betX, y,
                     commaWidth, numberHeight);
 
-            check = BlackWhite.getBlackWhite(check);
+            check = CheckImage.makeBnW(check);
 
-            if (BlackWhite.imagesAreEqual(check, comma)) {
+            if (CheckImage.areEqual(check, comma)) {
                 betX = betX + commaWidth;
             }
             checkComma = false;
@@ -130,10 +132,10 @@ public class PlayerBet {
         BufferedImage numberImage = image.getSubimage(betX, y,
                 numberWidth, numberHeight);
 
-        numberImage = BlackWhite.getBlackWhite(numberImage);
+        numberImage = CheckImage.makeBnW(numberImage);
 
         for (String number : numbers.keySet()) {
-            if (BlackWhite.imagesAreEqual(numberImage, numbers.get(number))) {
+            if (CheckImage.areEqual(numberImage, numbers.get(number))) {
                 betX = betX + numberWidth;
                 return number;
             }

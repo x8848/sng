@@ -1,18 +1,15 @@
-package com.sng.Table;
+package com.sng.screen;
+
+import com.sng.screen.figures.State;
 
 public class Player {
 
     protected int seat;
     private State state;
     private boolean button;
-
-    private int steakX;        // x+13; y+69
-    private int steakY;
-
+    private String stack;
 
     public Player(int seat) {
         this.seat = seat;
-
-
     }
 }

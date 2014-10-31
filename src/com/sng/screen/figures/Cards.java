@@ -1,4 +1,4 @@
-package com.sng.Table;
+package com.sng.screen.figures;
 
 public class Cards {
 

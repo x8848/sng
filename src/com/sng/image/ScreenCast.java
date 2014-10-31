@@ -13,6 +13,7 @@ public class ScreenCast extends Thread {
 
     private Robot robot;
     private volatile boolean isRunning;
+    private long WAIT = 1000;
 
     public ScreenCast() {
         try {
@@ -29,7 +30,7 @@ public class ScreenCast extends Thread {
         while (isRunning) {
             captureScreen();
             try {
-                Thread.sleep((long) 1000);
+                Thread.sleep(WAIT);
             } catch (InterruptedException e) {
             }
         }

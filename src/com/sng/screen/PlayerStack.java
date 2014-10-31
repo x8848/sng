@@ -1,6 +1,8 @@
-package com.sng.Table;
+package com.sng.screen;
 
-import com.sng.image.BlackWhite;
+import com.sng.image.CheckImage;
+import com.sng.screen.figures.Cards;
+import com.sng.screen.figures.Stack;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -11,24 +13,27 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.sng.Table.Stack.commaWidth;
-import static com.sng.Table.Stack.numberHeight;
-import static com.sng.Table.Stack.numberWidth;
+import static com.sng.screen.figures.Stack.*;
 
-public class PlayerStack extends PlayerCards {
+public class PlayerStack extends PlayerState {
 
     List<Stack> stackList = new ArrayList<Stack>();
 
     Map<String, BufferedImage> numbers = new HashMap<String, BufferedImage>();
     BufferedImage comma;
-    private static boolean checkComma = false;
+    private static boolean checkComma;
 
     private int stackX;
     private String stackValue;
 
     public PlayerStack() throws IOException {
         super();
-        for (Cards cards : getCardsList()) stackList.add(new Stack(cards.getX() + 13, cards.getY() + 69));
+        int seat = 0;
+        for (Cards cards : getCardsList()) {
+            int x = (seat == 4 || seat == 5 || seat == 6) ? 14 : 13;
+            stackList.add(new Stack(cards.getX() + x, cards.getY() + 69));
+            seat++;
+        }
 
         String fileName = "images/numbers/comma.png";
         comma = ImageIO.read(new File(fileName));
@@ -41,8 +46,10 @@ public class PlayerStack extends PlayerCards {
     }
 
     public int getStack(BufferedImage image, int seat) throws IOException {
-        Stack stack = stackList.get(seat);
+        Stack stack = stackList.get(seat - 1);
 
+        checkComma = false;
+        stackValue = "";
         String value = "";
         stackX = stack.getX();
         int count = 0;
@@ -56,9 +63,9 @@ public class PlayerStack extends PlayerCards {
             if (count == 1) checkComma = true;
         }
 
-        if (stackValue == null) return 0;
+        if (stackValue == "") return 0;
 
-        return 0;
+        return Integer.parseInt(stackValue);
     }
 
     private String getValue(BufferedImage image, int y) throws IOException {
@@ -66,11 +73,11 @@ public class PlayerStack extends PlayerCards {
             BufferedImage check = image.getSubimage(stackX, y,
                     commaWidth, numberHeight);
 
-            check = BlackWhite.getBlackWhite(check);
+            check = CheckImage.makeBnW(check);
 
-            ImageIO.write(check, "png", new File("images/" + stackX + ".png"));
+            //          ImageIO.write(check, "png", new File("images/" + stackX + ".png"));
 
-            if (BlackWhite.imagesAreEqual(check, comma)) {
+            if (CheckImage.areEqual(check, comma)) {
                 stackX = stackX + commaWidth;
                 checkComma = false;
             }
@@ -79,12 +86,12 @@ public class PlayerStack extends PlayerCards {
         BufferedImage numberImage = image.getSubimage(stackX, y,
                 numberWidth, numberHeight);
 
-        numberImage = BlackWhite.getBlackWhite(numberImage);
+        numberImage = CheckImage.makeBnW(numberImage);
 
-        ImageIO.write(numberImage, "png", new File("images/" + stackX + ".png"));
+//        ImageIO.write(numberImage, "png", new File("images/" + stackX + ".png"));
 
         for (String number : numbers.keySet()) {
-            if (BlackWhite.imagesAreEqual(numberImage, numbers.get(number))) {
+            if (CheckImage.areEqual(numberImage, numbers.get(number))) {
                 stackX = stackX + numberWidth;
                 return number;
             }
