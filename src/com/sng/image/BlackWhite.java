@@ -1,7 +1,7 @@
 package com.sng.image;
 
-import com.sng.Table.Cards;
-import com.sng.Table.PlayerCards;
+import com.sng.Table.PlayerBet;
+import com.sng.Table.PlayerStack;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -12,20 +12,15 @@ import java.io.IOException;
 public class BlackWhite {
     public static void main(String[] args) {
         try {
-            BufferedImage image = ImageIO.read(new File("images/out247.png"));
-            PlayerCards playerCards = new PlayerCards();
-            int i = 0;
-            for (Cards cards : playerCards.getCardsList()) {
-                i++;
-                System.out.print(" "+i + " is " + playerCards.getState(image, i).toString());
 
+            // make stack numbers b and w
 
-            }
-       } catch (IOException e) {
-            System.out.println("exception");
+            BufferedImage image = ImageIO.read(new File("images/start.png"));
+
+            System.out.println(new PlayerStack().getStack(image,1));
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
-
     }
 
     public static boolean imagesAreEqual(BufferedImage image1, BufferedImage image2) {
@@ -51,6 +46,4 @@ public class BlackWhite {
         g2d.dispose();
         return blackWhite;
     }
-
-
 }

@@ -11,7 +11,7 @@ import java.util.List;
 
 public class PlayerCards {
 
-    List<Cards> cardsList;
+    private List<Cards> cardsList;
 
     public PlayerCards() throws IOException {
         cardsList = new ArrayList<Cards>();
@@ -35,7 +35,7 @@ public class PlayerCards {
         cardsList.add(player8Cards);
     }
 
-    public List<Cards> getCardsList() {
+    protected List<Cards> getCardsList() {
         return cardsList;
     }
 
@@ -45,7 +45,7 @@ public class PlayerCards {
         BufferedImage stateImage = image.getSubimage(cards.getX(), cards.getY(),
                 Cards.width, Cards.height);
 
-        //stateImage = BlackWhite.getBlackWhite(stateImage);
+//        stateImage = BlackWhite.getBlackWhite(stateImage);
 //        ImageIO.write(stateImage, "png", new File("images/table/" + seat + ".png"));
 
         BufferedImage in = ImageIO.read(new File("images/table/in/" + seat + ".png"));

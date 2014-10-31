@@ -1,13 +1,15 @@
 package com.sng.Table;
 
-public class Button {
-    public static final int width = 40;
-    public static final int height = 6;
+public class Bet {
+
+    public static int commaWidth = 5;
+    public static int numberWidth = 9;
+    public static int numberHeight = 12;
 
     private int X;
     private int Y;
 
-    public Button(int x, int y) {
+    public Bet(int x, int y) {
         this.X = x;
         this.Y = y;
     }
