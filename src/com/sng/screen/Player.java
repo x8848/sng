@@ -6,6 +6,7 @@ public class Player {
 
     protected int seat;
     private State state;
+    private State prevState;
     private boolean button;
     private String stack;
 
