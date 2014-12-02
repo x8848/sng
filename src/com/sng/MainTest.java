@@ -8,6 +8,7 @@ import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 
 public class MainTest {
@@ -27,11 +28,30 @@ public class MainTest {
 
     static String line;
 
+    public static List<Player> playerList = new ArrayList<Player>();
+
     public static void main(String[] args) throws IOException {
         // testImage();
         int count = 0;
         for (String game : readFile("test.txt").split("#Game")) {
+
+
+
+            String stars = Pattern.quote(" **");
+
+
+            for (String s : game.split(stars)) {
+                System.out.println(s);
+                System.out.println("----");
+            }
+
+            if (count == 1) return;
+
             parseGame(game);
+           // System.out.println("player number is " + playerList.size());
+
+            count++;
+
         }
     }
 
@@ -47,11 +67,28 @@ public class MainTest {
                 break;
             }
 
+            boolean isButton = line.endsWith(button);
+
+            if (!isButton && line.startsWith("Seat")) {
+
+                String[] string = line.split(" ");
+                playerList.add(new Player(getInt(string[1]), string[2], getInt(string[4])));
+
+            }
+
+            if (line.endsWith(button)) {
+                System.out.println("button is " + getInt(line));
+            }
+
+            if (line.startsWith(players)) {
+                System.out.println(players + " " + line.replaceAll("\\D", ""));
+            }
+
             if (line.contains(CARDS)) {
                 cards = line.split(CARDS)[1];
             }
             if (line.startsWith(name + " posts")) {
-                blind = line.replaceAll("\\D","");
+                blind = line.replaceAll("\\D", "");
             }
 
 
@@ -62,6 +99,10 @@ public class MainTest {
                 }
             }
         }
+    }
+
+    private static int getInt(String line) {
+        return Integer.parseInt(line.replaceAll("\\D", ""));
     }
 
     private static String getValue(String value) {
@@ -110,7 +151,7 @@ public class MainTest {
 
             for (int i = 0; i < 9; i++) {
                 System.out.println("player" + i);
-                Player player = new Player(i);
+                Player player = new Player(i, "", 0);
                 if (i != 0) System.out.println("state " + state.getState(image, i));
                 System.out.println("button " + button.checkButton(image, i));
                 if (i != 0) System.out.println("stack " + stack.getStack(image, i));
