@@ -8,6 +8,8 @@ public class Game {
     String cards;
     int seat;
     String name;
+    int bBlind;
+    Stage stage;
 
     Street pFlop;
     Street flop;
