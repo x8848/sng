@@ -4,7 +4,7 @@ import com.sng.screen.figures.State;
 
 public class Player {
 
-    protected int seat;
+    private int seat;
     private boolean button;
 
     private State state;
@@ -18,7 +18,6 @@ public class Player {
         this.name = name;
         this.stack = stack;
     }
-
 
 
 }
