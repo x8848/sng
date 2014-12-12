@@ -1,115 +1,153 @@
 package com.sng;
 
 import com.sng.screen.*;
-import com.sng.screen.Player;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-
 public class MainTest {
 
-    public static final String BB = "big blind";
-
-    static final String button = "is the button";
-    static final String players = "Total number of players :";
-    static final String pf = "** Dealing down cards **";
-
-    static final String flop = "Dealing flop";
-    static final String turn = "Dealing turn";
-    static final String river = "Dealing river";
-
-    static final String name = "fftttt";
-    static final String CARDS = "Dealt to " + name;
-
-    static String line;
-
-    public static List<Player> playerList = new ArrayList<Player>();
+    public static String block;
+    static Game game;
 
     public static void main(String[] args) throws IOException {
         // testImage();
+
         int count = 0;
-        for (String game : readFile("test.txt").split("#Game")) {
+        game = new Game("fftttt");
 
+        String input = readFile("test.txt");
+        String[] list = input.split("#Game");
 
+        for (String gameData : list) {
 
-            String stars = Pattern.quote(" **");
-
-
-            for (String s : game.split(stars)) {
-                System.out.println(s);
-                System.out.println("----");
+            if (count == 0) {
+                count++;
+                continue;
             }
 
-            if (count == 1) return;
+            String[] tokens = gameData.split(Pattern.quote(" **"));
 
-            parseGame(game);
-           // System.out.println("player number is " + playerList.size());
+            for (int i = 0; i < tokens.length; i++) {
+                block = tokens[i];
+                switch (i) {
+                    case 0:
+                        parseGameId();
+                        break;
+                    case 1:
+                        parseBlind();
+                        break;
+                    case 2:
+                        parsePlayers();
+                        break;
+                    case 3:
+                        parsePreFlop();
+                        break;
+                    case 4:
+                        parseFlop();
+                        break;
+                    case 5:
+                        parseTurn();
+                        break;
+                    case 6:
+                        parseRiver();
+                        break;
+                    case 7:
+                        parseSummary();
+                        break;
+                    default:
+                        break;
+                }
+            }
 
+            if (count == 1) {
+                System.out.println(game.toString());
+                return;
+            }
             count++;
-
         }
     }
 
-    static void parseGame(String block) throws IOException {
-        StringReader reader = new StringReader(block);
-        BufferedReader br = new BufferedReader(reader);
-        String cards = "";
-        String blind = "";
+    private static void parseFlop() {
+        String[] tokens = block.split("\\n");
 
-        while ((line = br.readLine()) != null) {
+        if (game.getFlop().getPlayersNumber() != (tokens.length - 2)) {
+            throw new NullPointerException();
+        }
+    }
 
-            if (line.contains(flop) || (line.contains("Summary"))) {
-                break;
+    private static void parseTurn() {
+        String[] tokens = block.split("\\n");
+
+        if (game.getFlop().getPlayersNumber() != (tokens.length - 2)) {
+            throw new NullPointerException();
+        }
+    }
+
+    private static void parseRiver() {
+        System.out.println();
+    }
+    private static void parseSummary() {
+        System.out.println();
+    }
+
+    private static void parsePreFlop() {
+        String[] tokens = block.split("\\n");
+        game.setCards(tokens[1].split("\\[")[1]);
+
+        if (game.getPlayersNumber() != (tokens.length - 3)) {
+            throw new NullPointerException();
+        }
+
+        for (int i = 0; i < game.getPlayersNumber(); i++) {
+            parseMove(tokens[i + 2]);
+        }
+    }
+
+    private static void parseMove(String token) {
+        String[] list = token.split(" ");
+        // set player move depend on the name
+    }
+
+    private static void parsePlayers() {
+        String[] tokens = block.split("Seat ");
+        game.setButton(tokens[1].charAt(0) - '0');
+        int number = (tokens[1].split(": ")[1].charAt(0) - '0');
+        game.setPlayersNumber(number);
+
+        for (int i = 0; i < number; i++) {
+            String[] playerData = tokens[i + 2].split(" ");
+            int seat = playerData[0].charAt(0) - '0';
+            String name = playerData[1];
+            if (name.equals(game.getName())) {
+                game.setSeat(seat);
             }
-
-            boolean isButton = line.endsWith(button);
-
-            if (!isButton && line.startsWith("Seat")) {
-
-                String[] string = line.split(" ");
-                playerList.add(new Player(getInt(string[1]), string[2], getInt(string[4])));
-
-            }
-
-            if (line.endsWith(button)) {
-                System.out.println("button is " + getInt(line));
-            }
-
-            if (line.startsWith(players)) {
-                System.out.println(players + " " + line.replaceAll("\\D", ""));
-            }
-
-            if (line.contains(CARDS)) {
-                cards = line.split(CARDS)[1];
-            }
-            if (line.startsWith(name + " posts")) {
-                blind = line.replaceAll("\\D", "");
-            }
-
-
-            if (line.startsWith(name)) {
-                if (!line.startsWith(name + " folds") && !line.startsWith(name + " posts")) {
-                    System.out.println(cards + " & " + line + " & " + blind);
-                    blind = "";
-                }
+            int stack = getInt(playerData[3]);
+            Player player = new Player(seat, name, stack);
+            game.addPlayer(player);
+            if (i == (number - 1)) {
+                //  get sb and bb players names
             }
         }
+    }
+
+    private static void parseBlind() {
+        game.setBigBlind(Integer.valueOf(block.split(Pattern.quote("$"))[2].split(" ")[0]));
+    }
+
+    private static void parseGameId() {
+        System.out.println(getInt(block.split(" ")[3]));
     }
 
     private static int getInt(String line) {
         return Integer.parseInt(line.replaceAll("\\D", ""));
-    }
-
-    private static String getValue(String value) {
-        if (line.contains(value)) {
-            return line.split(value)[1];
-        }
-        return null;
     }
 
     static String readFile(String fileName) throws IOException {
@@ -117,7 +155,6 @@ public class MainTest {
         try {
             StringBuilder sb = new StringBuilder();
             String line = br.readLine();
-            String board = "";
 
             while (line != null) {
                 sb.append(line);
@@ -164,6 +201,4 @@ public class MainTest {
             e.printStackTrace();
         }
     }
-
-    ;
 }

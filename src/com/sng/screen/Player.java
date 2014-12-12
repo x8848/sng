@@ -19,5 +19,16 @@ public class Player {
         this.stack = stack;
     }
 
-
+    @Override
+    public String toString() {
+        return "Player{" +
+                "seat=" + seat +
+                ", button=" + button +
+                ", state=" + state +
+                ", previousState=" + previousState +
+                ", stack=" + stack +
+                ", bet=" + bet +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

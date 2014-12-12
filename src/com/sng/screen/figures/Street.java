@@ -2,6 +2,7 @@ package com.sng.screen.figures;
 
 import com.sng.screen.Player;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Street {
@@ -10,5 +11,13 @@ public class Street {
     int pot;
     int stack;
     Position position;
-    List<Player> playerList;
+    List<Player> playerList = new ArrayList<Player>();
+
+    public int getPlayersNumber(){
+        return playerList.size();
+    }
+
+    void addPlayer(Player player){
+        playerList.add(player);
+    }
 }
