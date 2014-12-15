@@ -1,17 +1,18 @@
-package com.sng.screen;
-
-import com.sng.screen.figures.Street;
+package com.sng.screen.figures;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Game {
+    int gameNumber;
     String cards;
-    String name;
-    int seat;
+    private String playerName;
+    int playerSeat;
     int bigBlind;
     int button;
     int playersNumber;
+
+    private List<Player> playerList = new ArrayList<Player>();
 
 //    Stage stage;
 
@@ -20,10 +21,40 @@ public class Game {
     Street turn;
     Street river;
 
-    List<Player> playerList = new ArrayList<Player>();
+    public String getPlayerName() {
+        return playerName;
+    }
 
-    public Game(String name) {
-        this.name = name;
+    public int getPlayerSeat() {
+        return playerSeat;
+    }
+
+    public Game(String playerName) {
+        this.playerName = playerName;
+    }
+
+    public void setGameNumber(int gameNumber) {
+        this.gameNumber = gameNumber;
+    }
+
+    public void setPlayerSeat(int playerSeat) {
+        this.playerSeat = playerSeat;
+    }
+
+    public void setPreFlop(Street preFlop) {
+        this.preFlop = preFlop;
+    }
+
+    public void setFlop(Street flop) {
+        this.flop = flop;
+    }
+
+    public void setTurn(Street turn) {
+        this.turn = turn;
+    }
+
+    public void setRiver(Street river) {
+        this.river = river;
     }
 
     public void setPlayersNumber(int playersNumber) {
@@ -46,14 +77,6 @@ public class Game {
         return playersNumber;
     }
 
-    public void setSeat(int seat) {
-        this.seat = seat;
-    }
-
-    public String getName() {
-        return name;
-    }
-
     public void setBigBlind(int bigBlind) {
         this.bigBlind = bigBlind;
     }
@@ -70,20 +93,4 @@ public class Game {
         playerList.add(player);
     }
 
-    @Override
-    public String toString() {
-        return "Game{" +
-                "cards='" + cards + '\'' +
-                ", name='" + name + '\'' +
-                ", seat=" + seat +
-                ", bigBlind=" + bigBlind +
-                ", button=" + button +
-                ", playersNumber=" + playersNumber +
-                ", pFlop=" + preFlop +
-                ", flop=" + flop +
-                ", turn=" + turn +
-                ", river=" + river +
-                ", playerList=" + playerList +
-                '}';
-    }
 }

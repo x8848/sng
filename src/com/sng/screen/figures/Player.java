@@ -1,6 +1,4 @@
-package com.sng.screen;
-
-import com.sng.screen.figures.State;
+package com.sng.screen.figures;
 
 public class Player {
 

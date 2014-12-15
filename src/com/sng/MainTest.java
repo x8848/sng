@@ -1,6 +1,8 @@
 package com.sng;
 
 import com.sng.screen.*;
+import com.sng.screen.figures.Game;
+import com.sng.screen.figures.Player;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -39,10 +41,10 @@ public class MainTest {
                 block = tokens[i];
                 switch (i) {
                     case 0:
-                        parseGameId();
+                        parseGameNumber();
                         break;
                     case 1:
-                        parseBlind();
+                        parseBigBlind();
                         break;
                     case 2:
                         parsePlayers();
@@ -126,8 +128,8 @@ public class MainTest {
             String[] playerData = tokens[i + 2].split(" ");
             int seat = playerData[0].charAt(0) - '0';
             String name = playerData[1];
-            if (name.equals(game.getName())) {
-                game.setSeat(seat);
+            if (name.equals(game.getPlayerName())) {
+                game.setPlayerSeat(seat);
             }
             int stack = getInt(playerData[3]);
             Player player = new Player(seat, name, stack);
@@ -138,12 +140,12 @@ public class MainTest {
         }
     }
 
-    private static void parseBlind() {
+    private static void parseBigBlind() {
         game.setBigBlind(Integer.valueOf(block.split(Pattern.quote("$"))[2].split(" ")[0]));
     }
 
-    private static void parseGameId() {
-        System.out.println(getInt(block.split(" ")[3]));
+    private static void parseGameNumber() {
+        game.setGameNumber(getInt(block.split(" ")[3]));
     }
 
     private static int getInt(String line) {
