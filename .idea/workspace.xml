@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="403156d5-e36c-42f6-b84d-fad856406b69" name="Default" comment="complete single file parse">
-      <change type="DELETED" beforePath="D:\java\sng\.idea\excludeFromValidation.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sng/com/sng/MainTest.class" afterPath="$PROJECT_DIR$/out/production/sng/com/sng/MainTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -46,8 +45,8 @@
       <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sng/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37062937" vertical-offset="2591" max-vertical-offset="3485">
-              <caret line="168" column="35" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.3104895" vertical-offset="1240" max-vertical-offset="3485">
+              <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4059#4060#0" expanded="true" />
@@ -271,20 +270,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -765,7 +750,7 @@
       <workItem from="1418344522554" duration="8885000" />
       <workItem from="1418605992675" duration="2809000" />
       <workItem from="1418677032928" duration="117000" />
-      <workItem from="1418677371629" duration="25144000" />
+      <workItem from="1418677371629" duration="25282000" />
     </task>
     <task id="LOCAL-00001" summary="try git from idea">
       <created>1414632335244</created>
@@ -815,11 +800,17 @@
       <option name="project" value="LOCAL" />
       <updated>1418713250887</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="complete single file parse">
+      <created>1418713406475</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1418713406475</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163635000" />
+    <option name="totallyTimeSpent" value="163773000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1318,8 +1309,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37062937" vertical-offset="2591" max-vertical-offset="3485">
-          <caret line="168" column="35" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.3104895" vertical-offset="1240" max-vertical-offset="3485">
+          <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4059#4060#0" expanded="true" />
