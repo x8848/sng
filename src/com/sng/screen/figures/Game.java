@@ -5,28 +5,18 @@ import java.util.List;
 
 public class Game {
     int gameNumber;
-    String cards;
-    private String playerName;
     int playerSeat;
+    private String playerName;
+
     int bigBlind;
-    int button;
-    int playersNumber;
-
-    private List<Player> playerList = new ArrayList<Player>();
-
-//    Stage stage;
+    int buttonSeat;
 
     Street preFlop;
-    Street flop;
-    Street turn;
-    Street river;
+
+    List<Street> streetList = new ArrayList<>();
 
     public String getPlayerName() {
         return playerName;
-    }
-
-    public int getPlayerSeat() {
-        return playerSeat;
     }
 
     public Game(String playerName) {
@@ -41,56 +31,44 @@ public class Game {
         this.playerSeat = playerSeat;
     }
 
-    public void setPreFlop(Street preFlop) {
-        this.preFlop = preFlop;
-    }
-
-    public void setFlop(Street flop) {
-        this.flop = flop;
-    }
-
-    public void setTurn(Street turn) {
-        this.turn = turn;
-    }
-
-    public void setRiver(Street river) {
-        this.river = river;
-    }
-
-    public void setPlayersNumber(int playersNumber) {
-        this.playersNumber = playersNumber;
-    }
-
-    public Street getFlop() {
-        return flop;
-    }
-
-    public Street getTurn() {
-        return turn;
-    }
-
-    public Street getRiver() {
-        return river;
-    }
-
-    public int getPlayersNumber() {
-        return playersNumber;
-    }
 
     public void setBigBlind(int bigBlind) {
         this.bigBlind = bigBlind;
     }
 
-    public void setButton(int button) {
-        this.button = button;
+    public void setButtonSeat(int buttonSeat) {
+        this.buttonSeat = buttonSeat;
     }
 
-    public void setCards(String cards) {
-        this.cards = cards;
+    public Street getPreFlop() {
+        return preFlop;
     }
 
-    public void addPlayer(Player player) {
-        playerList.add(player);
+    public void setPreFlop(Street preFlop) {
+        this.preFlop = preFlop;
     }
 
+    public void addStreet(Street street) {
+        streetList.add(street);
+    }
+
+    public Street getLastStreet() {
+        int size = streetList.size();
+        if (size != 0) return streetList.get(size - 1);
+        else
+            return preFlop;
+    }
+
+    @Override
+    public String toString() {
+        return "Game{" +
+                "gameNumber=" + gameNumber +
+                ", playerName='" + playerName + '\'' +
+                ", playerSeat=" + playerSeat +
+                ", bigBlind=" + bigBlind +
+                ", button=" + buttonSeat +
+                ", preFlop=" + preFlop +
+                ", streetList=" + streetList +
+                '}';
+    }
 }

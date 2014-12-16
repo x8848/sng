@@ -3,6 +3,7 @@ package com.sng;
 import com.sng.screen.*;
 import com.sng.screen.figures.Game;
 import com.sng.screen.figures.Player;
+import com.sng.screen.figures.Street;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -17,13 +18,15 @@ import java.util.regex.Pattern;
 public class MainTest {
 
     public static String block;
+    private static String name = "fftttt";
     static Game game;
+    static List<Game> gameList = new ArrayList<>();
+
 
     public static void main(String[] args) throws IOException {
         // testImage();
 
         int count = 0;
-        game = new Game("fftttt");
 
         String input = readFile("test.txt");
         String[] list = input.split("#Game");
@@ -34,6 +37,8 @@ public class MainTest {
                 count++;
                 continue;
             }
+
+            game = new Game(name);
 
             String[] tokens = gameData.split(Pattern.quote(" **"));
 
@@ -52,92 +57,79 @@ public class MainTest {
                     case 3:
                         parsePreFlop();
                         break;
-                    case 4:
-                        parseFlop();
-                        break;
-                    case 5:
-                        parseTurn();
-                        break;
-                    case 6:
-                        parseRiver();
-                        break;
-                    case 7:
-                        parseSummary();
-                        break;
                     default:
+                        if (!block.split("\\n")[0].equals("")) parseStreet();
                         break;
                 }
             }
-
-            if (count == 1) {
-                System.out.println(game.toString());
-                return;
-            }
+            gameList.add(game);
             count++;
         }
-    }
-
-    private static void parseFlop() {
-        String[] tokens = block.split("\\n");
-
-        if (game.getFlop().getPlayersNumber() != (tokens.length - 2)) {
-            throw new NullPointerException();
-        }
-    }
-
-    private static void parseTurn() {
-        String[] tokens = block.split("\\n");
-
-        if (game.getFlop().getPlayersNumber() != (tokens.length - 2)) {
-            throw new NullPointerException();
-        }
-    }
-
-    private static void parseRiver() {
-        System.out.println();
-    }
-    private static void parseSummary() {
-        System.out.println();
+        System.out.println(gameList.toString());
     }
 
     private static void parsePreFlop() {
+        Street preFlop = game.getPreFlop();
+
         String[] tokens = block.split("\\n");
-        game.setCards(tokens[1].split("\\[")[1]);
+        preFlop.setCards(tokens[1].split("\\[")[1]);
 
-        if (game.getPlayersNumber() != (tokens.length - 3)) {
-            throw new NullPointerException();
+        for (int i = 0; i < tokens.length - 3; i++) {
+            preFlop.parseMove(tokens[i + 2]);
         }
-
-        for (int i = 0; i < game.getPlayersNumber(); i++) {
-            parseMove(tokens[i + 2]);
-        }
+        game.setPreFlop(preFlop);
     }
 
-    private static void parseMove(String token) {
-        String[] list = token.split(" ");
-        // set player move depend on the name
+    private static void parseStreet() {
+        Street street = new Street();
+        Street lastStreet = game.getLastStreet();
+
+        street.setPlayerList(lastStreet.getNextStreetPlayerList());
+        street.setBank(lastStreet.getBank());
+
+        String[] tokens = block.split("\\n");
+
+        street.setCards(tokens[0]);
+
+        for (int i = 0; i < tokens.length - 2; i++) {
+            street.parseMove(tokens[i + 1]);
+        }
+        game.addStreet(street);
     }
 
     private static void parsePlayers() {
         String[] tokens = block.split("Seat ");
-        game.setButton(tokens[1].charAt(0) - '0');
+        int buttonSeat = tokens[1].charAt(0) - '0';
+        game.setButtonSeat(buttonSeat);
+
+        Street preFlop = new Street();
+
         int number = (tokens[1].split(": ")[1].charAt(0) - '0');
-        game.setPlayersNumber(number);
+
+        preFlop.setPlayersNumber(number);
+
 
         for (int i = 0; i < number; i++) {
             String[] playerData = tokens[i + 2].split(" ");
             int seat = playerData[0].charAt(0) - '0';
+
             String name = playerData[1];
             if (name.equals(game.getPlayerName())) {
                 game.setPlayerSeat(seat);
             }
             int stack = getInt(playerData[3]);
             Player player = new Player(seat, name, stack);
-            game.addPlayer(player);
+
+            preFlop.addPlayer(player);
+
             if (i == (number - 1)) {
-                //  get sb and bb players names
+                String[] split = tokens[i + 2].split("\\n");
+                for (int j = 0; j < split.length - 2; j++) {
+                    preFlop.parseMove(split[j + 1]);
+                }
             }
         }
+        game.setPreFlop(preFlop);
     }
 
     private static void parseBigBlind() {
@@ -145,10 +137,11 @@ public class MainTest {
     }
 
     private static void parseGameNumber() {
-        game.setGameNumber(getInt(block.split(" ")[3]));
+        int number = getInt(block.split(" ")[3]);
+        game.setGameNumber(number);
     }
 
-    private static int getInt(String line) {
+    public static int getInt(String line) {
         return Integer.parseInt(line.replaceAll("\\D", ""));
     }
 
@@ -173,7 +166,7 @@ public class MainTest {
         try {
             BufferedImage image = ImageIO.read(new File("images/test/all.png"));
 
-            List<Player> playerList = new ArrayList<Player>();
+            List<Player> playerList = new ArrayList<>();
 
             PlayerState state = new PlayerState();
             PlayerButton button = new PlayerButton();
