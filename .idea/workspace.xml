@@ -2,7 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="403156d5-e36c-42f6-b84d-fad856406b69" name="Default" comment="parse &amp; analyze hand history files folder">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/GameService.java" afterPath="$PROJECT_DIR$/src/com/sng/GameService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141118 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63584168) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141119 Tournament $0.90 + $0.10 'The Daily $1' - $500 Guaranteed (63611439) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141119 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63603426) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $0.90 + $0.10 $200 Guaranteed (63632044) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $0.90 + $0.10 'The Daily $1' - $500 Guaranteed (63640602) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63648437) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63631682) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (63632410) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $2 + $0.20 The $300 GTD 1+1 Knockout (63657435) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $1.15 + $0.15 $1,000 Guaranteed Turbo 2R1A (63661111) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $1.35 + $0.15 $250 Guaranteed Turbo (63663208) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63661198) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $1.35 + $0.15 $400 Guaranteed (63675224) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63667944) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $2.70 + $0.30 $800 Guaranteed SuperTurbo VeryDeep (63662684) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Sit &amp; Go $0.90 + $0.10 40-Seats (63735267) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Sit &amp; Go $0.90 + $0.10 40-Seats (63737609) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Tournament $0.90 + $0.10 $200 Guaranteed (63692467) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Tournament $1.15 + $0.15 $1,000 Guaranteed Turbo 2R1A (63691972) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63692073) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (63692861) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.85 + $0.15 9-Handed (63774294) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.85 + $0.15 9-Handed (63774415) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.85 + $0.15 9-Handed (63774439) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.85 + $0.15 9-Handed (63774454) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.90 + $0.10 40-Seats (63766852) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.90 + $0.10 40-Seats (63767367) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.90 + $0.10 40-Seats (63774347) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63736241) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Tournament $1.15 + $0.15 $1,000 Guaranteed Turbo 2R1A (63723717) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Sit &amp; Go $0.85 + $0.15 9-Handed (63805562) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Sit &amp; Go $0.85 + $0.15 9-Handed (63805633) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Sit &amp; Go $0.85 + $0.15 9-Handed (63805683) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Sit &amp; Go $0.85 + $0.15 9-Handed (63805746) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Sit &amp; Go $0.90 + $0.10 40-Seats (63805442) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (63760921) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (63774725) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (63774300) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Tournament $1.35 + $0.15 $400 Guaranteed (63764600) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63830544) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63830669) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63830795) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63830919) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63839725) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63839780) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63839889) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63840038) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.90 + $0.10 40-Seats (63830420) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.90 + $0.10 40-Seats (63839697) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (63785083) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63797255) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63789278) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Sit &amp; Go $0.85 + $0.15 9-Handed (63860097) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Sit &amp; Go $0.85 + $0.15 9-Handed (63860132) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Sit &amp; Go $0.85 + $0.15 9-Handed (63860179) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Sit &amp; Go $0.85 + $0.15 9-Handed (63860193) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Sit &amp; Go $0.90 + $0.10 40-Seats (63859978) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63826504) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Tournament $1.35 + $0.15 $400 Guaranteed (63823650) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63816598) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141127 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (63841918) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141127 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63855469) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141127 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63845500) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141127 Tournament $1.70 + $0.30 $1,200 Guaranteed with PokerCAMs (63860524) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141128 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63885236) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141128 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63875554) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (63968488) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (63962643) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (63980796) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63974003) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $1.30 + $0.20 $1,200 Guaranteed Turbo R&amp;A (63979228) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63966180) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (64002116) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $1.35 + $0.15 $400 Guaranteed (63999162) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63994238) No Limit Holdem.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sng/com/sng/MainTest.class" afterPath="$PROJECT_DIR$/out/production/sng/com/sng/MainTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sng.iws" />
@@ -79,8 +154,8 @@
       <file leaf-file-name="GameService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sng/GameService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69007266" vertical-offset="1976" max-vertical-offset="2805">
-              <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.8135593" vertical-offset="1976" max-vertical-offset="2805">
+              <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -767,7 +842,7 @@
       <workItem from="1418605992675" duration="2809000" />
       <workItem from="1418677032928" duration="117000" />
       <workItem from="1418677371629" duration="25282000" />
-      <workItem from="1418782532843" duration="22472000" />
+      <workItem from="1418782532843" duration="22756000" />
     </task>
     <task id="LOCAL-00001" summary="try git from idea">
       <created>1414632335244</created>
@@ -829,11 +904,17 @@
       <option name="project" value="LOCAL" />
       <updated>1418805357805</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="parse &amp; analyze hand history files folder">
+      <created>1418805568464</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1418805568464</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186245000" />
+    <option name="totallyTimeSpent" value="186529000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1345,8 +1426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/GameService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69007266" vertical-offset="1976" max-vertical-offset="2805">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.8135593" vertical-offset="1976" max-vertical-offset="2805">
+          <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
