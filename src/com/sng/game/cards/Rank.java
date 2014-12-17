@@ -15,9 +15,21 @@ public enum Rank {
     King("K"),
     Ace("A");
 
-    private final String rank;
+    private final String value;
 
-    Rank(String rank) {
-        this.rank = rank;
+    Rank(String value) {
+        this.value = value;
+    }
+
+    public static Rank parse(String s) {
+        for (Rank rank : Rank.values()) {
+            if (s.equalsIgnoreCase(rank.value)) return rank;
+        }
+        throw new RuntimeException("wrong rank" + s);
+    }
+
+    @Override
+    public String toString() {
+        return value;
     }
 }

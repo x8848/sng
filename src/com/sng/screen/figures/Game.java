@@ -5,7 +5,8 @@ import java.util.List;
 
 public class Game {
     int gameNumber;
-    int playerSeat;
+    int tournamentNumber;
+
     private String playerName;
 
     int bigBlind;
@@ -15,22 +16,22 @@ public class Game {
 
     List<Street> streetList = new ArrayList<>();
 
+    public int getBigBlind() {
+        return bigBlind;
+    }
+
     public String getPlayerName() {
         return playerName;
     }
 
-    public Game(String playerName) {
+    public Game(String playerName, int tournamentNumber) {
         this.playerName = playerName;
+        this.tournamentNumber = tournamentNumber;
     }
 
     public void setGameNumber(int gameNumber) {
         this.gameNumber = gameNumber;
     }
-
-    public void setPlayerSeat(int playerSeat) {
-        this.playerSeat = playerSeat;
-    }
-
 
     public void setBigBlind(int bigBlind) {
         this.bigBlind = bigBlind;
@@ -64,7 +65,6 @@ public class Game {
         return "Game{" +
                 "gameNumber=" + gameNumber +
                 ", playerName='" + playerName + '\'' +
-                ", playerSeat=" + playerSeat +
                 ", bigBlind=" + bigBlind +
                 ", button=" + buttonSeat +
                 ", preFlop=" + preFlop +

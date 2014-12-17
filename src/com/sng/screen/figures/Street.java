@@ -1,27 +1,25 @@
 package com.sng.screen.figures;
 
-import com.sng.MainTest;
+import com.sng.GameService;
+import com.sng.game.cards.Card;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Street {
-
     int bank;
     int pot;
-    String cards;
-    int playersNumber;
+    List<Card> cards;
 
     List<Player> playerList = new ArrayList<>();
 
-
     public void setPlayerList(List<Player> playerList) {
         this.playerList = playerList;
-        playersNumber = playerList.size();
     }
 
-    public void setCards(String cards) {
-        this.cards = cards;
+    public void setCard(Card card) {
+        if (cards == null) cards = new ArrayList<>();
+        cards.add(card);
     }
 
     public void parseMove(String token) {
@@ -41,8 +39,12 @@ public class Street {
 
         State state = player.getState();
 
+        if (state == State.ANTE) {
+            betIndex = 3;
+        }
+
         if (state != State.CHECK && state != State.FOLD) {
-            int bet = MainTest.getInt(split[betIndex]);
+            int bet = GameService.getInt(split[betIndex]);
             player.setBet(bet);
             bank = bank + bet;
             pot = pot + bet;
@@ -71,9 +73,10 @@ public class Street {
 
         for (Player player : playerList) {
             if (player.getState() != State.FOLD) {
-                Player playerClone = (Player) player.clone();
-                playerClone.setBet(0);
-                nextStreetPlayerList.add(playerClone);
+                Player clone = player.clone();
+                clone.setStack(player.getStack() - player.getBet());
+                clone.setBet(0);
+                nextStreetPlayerList.add(clone);
             }
         }
         return nextStreetPlayerList;
@@ -83,17 +86,12 @@ public class Street {
         playerList.set(smallBlindPlayerIndex, player);
     }
 
-    public void setPlayersNumber(int playersNumber) {
-        this.playersNumber = playersNumber;
-    }
-
     @Override
     public String toString() {
         return "Street{" +
                 "cards='" + cards + '\'' +
                 ", bank=" + bank +
                 ", pot=" + pot +
-                ", playersNumber=" + playersNumber +
                 ", playerList=" + playerList +
                 '}';
     }
@@ -104,5 +102,9 @@ public class Street {
 
     public void setBank(int bank) {
         this.bank = bank;
+    }
+
+    public List<Card> getCards() {
+        return cards;
     }
 }

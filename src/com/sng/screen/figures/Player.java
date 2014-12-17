@@ -8,7 +8,7 @@ public class Player implements Cloneable {
     private int bet;
     private State state;
 
-    private State previousState = null;
+    private State previousState;
 
     public Player(int seat, String name, int stack) {
         this.seat = seat;
@@ -18,11 +18,11 @@ public class Player implements Cloneable {
 
     public void setBet(int bet) {
         this.bet = bet;
-        stack = stack - bet;
-        if (stack == 0) state = State.ALL_IN;
+        //stack = stack - bet;
+        if (stack - bet == 0) state = State.ALL_IN;
     }
 
-     public State getState() {
+    public State getState() {
         return state;
     }
 
@@ -69,17 +69,36 @@ public class Player implements Cloneable {
             case "raises":
                 state = State.RAISE;
                 break;
+            case "ante":
+                state = State.ANTE;
+                break;
             default:
                 throw new FileParseException();
         }
     }
 
     @Override
-    protected Object clone() {
+    protected Player clone() {
         try {
-            return super.clone();
+            return (Player) super.clone();
         } catch (CloneNotSupportedException e) {
             throw new FileParseException();
         }
+    }
+
+    public int getBet() {
+        return bet;
+    }
+
+    public State getPreviousState() {
+        return previousState;
+    }
+
+    public void setStack(int stack) {
+        this.stack = stack;
+    }
+
+    public int getStack() {
+        return stack;
     }
 }
