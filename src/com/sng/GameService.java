@@ -135,7 +135,7 @@ public class GameService {
             if (fileName.endsWith("Holdem.txt")) {
                 tournamentNumber = getInt(fileName.split(Pattern.quote(" ("))[1]);
                 parseFile(readFile(fileName));
-            }
+            } // else file.delete();
         }
         return gameList;
     }
