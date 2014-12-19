@@ -1,14 +1,12 @@
 package com.sng.screen.figures;
 
-public class Player implements Cloneable {
+import java.util.LinkedList;
 
+public class Player implements Cloneable {
     private int seat;
     private String name;
-    private int stack;
-    private int bet;
-    private State state;
-
-    private State previousState;
+    private long stack;
+    private LinkedList<Move> moves;
 
     public Player(int seat, String name, int stack) {
         this.seat = seat;
@@ -16,14 +14,8 @@ public class Player implements Cloneable {
         this.stack = stack;
     }
 
-    public void setBet(int bet) {
-        this.bet = bet;
-        //stack = stack - bet;
-        if (stack - bet == 0) state = State.ALL_IN;
-    }
-
-    public State getState() {
-        return state;
+    public LinkedList<Move> getMoves() {
+        return moves;
     }
 
     public String getName() {
@@ -34,71 +26,40 @@ public class Player implements Cloneable {
     public String toString() {
         return "Player{" +
                 "seat=" + seat +
-
-                ", state=" + state +
-                ", previousState=" + previousState +
+                ", moves=" + moves +
                 ", stack=" + stack +
-                ", bet=" + bet +
                 ", name='" + name + '\'' +
                 '}';
-    }
-
-    public void parseState(String string) {
-        if (state != null) {
-            previousState = state;
-        }
-        switch (string) {
-            case "small":
-                state = State.SMALL_BLIND;
-                break;
-            case "big":
-                state = State.BIG_BLIND;
-                break;
-            case "folds":
-                state = State.FOLD;
-                break;
-            case "checks":
-                state = State.CHECK;
-                break;
-            case "bets":
-                state = State.BET;
-                break;
-            case "calls":
-                state = State.CALL;
-                break;
-            case "raises":
-                state = State.RAISE;
-                break;
-            case "ante":
-                state = State.ANTE;
-                break;
-            default:
-                throw new FileParseException();
-        }
     }
 
     @Override
     protected Player clone() {
         try {
-            return (Player) super.clone();
+            Player clone = (Player) super.clone();
+            clone.clearMoves();
+            return clone;
         } catch (CloneNotSupportedException e) {
             throw new FileParseException();
         }
     }
 
-    public int getBet() {
-        return bet;
+    private void clearMoves() {
+        moves = null;
     }
 
-    public State getPreviousState() {
-        return previousState;
-    }
-
-    public void setStack(int stack) {
+    public void setStack(long stack) {
         this.stack = stack;
     }
 
-    public int getStack() {
+    public long getStack() {
         return stack;
     }
+
+    public void addMove(State state, long bet) {
+        if (moves == null) moves = new LinkedList<>();
+        if (stack - bet == 0) state = State.ALL_IN;
+        moves.add(new Move(state, bet, stack));
+        stack = stack - bet;
+    }
+
 }

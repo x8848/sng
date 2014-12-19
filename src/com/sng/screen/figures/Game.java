@@ -6,7 +6,7 @@ import java.util.List;
 public class Game {
     int gameNumber;
     int tournamentNumber;
-
+    int playersNumber;
     private String playerName;
 
     int bigBlind;
@@ -15,6 +15,10 @@ public class Game {
     Street preFlop;
 
     List<Street> streetList = new ArrayList<>();
+
+    public void setPlayersNumber(int playersNumber) {
+        this.playersNumber = playersNumber;
+    }
 
     public int getBigBlind() {
         return bigBlind;

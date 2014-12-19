@@ -43,6 +43,7 @@ public class GameService {
                     parsePreFlop();
                     break;
                 default:
+                    if (game.getPreFlop().getCards() == null) break;
                     if (!block.split("\\n")[0].equals("")) parseStreet();
                     break;
             }
@@ -59,11 +60,16 @@ public class GameService {
             for (String s : tokens[1].split("\\[")[1].split(",")) {
                 preFlop.setCard(Card.parse(s.substring(1, 3)));
             }
-        } else return;
+        } else
+            return;
 
         for (int i = 0; i < tokens.length - 3; i++) {
             preFlop.parseMove(tokens[i + 2]);
         }
+
+        if(preFlop.getPlayer(0).getName().equals(""))
+            preFlop.skipGame();                             // empty names text file bug
+
         game.setPreFlop(preFlop);
     }
 
@@ -71,14 +77,17 @@ public class GameService {
         Street street = new Street();
         Street lastStreet = game.getLastStreet();
 
-        street.setPlayerList(lastStreet.getNextStreetPlayerList());
         street.setBank(lastStreet.getBank());
-
         String[] tokens = block.split("\\n");
 
         for (String s : tokens[0].substring(2).split(",")) {
             street.setCard(Card.parse(s.substring(1, 3)));
         }
+
+        if (tokens.length == 2)
+            street.setPlayerList(lastStreet.getPlayerList());
+        else
+            street.setPlayerList(lastStreet.getNextStreetPlayerList());
 
         for (int i = 0; i < tokens.length - 2; i++) {
             street.parseMove(tokens[i + 1]);
@@ -94,6 +103,7 @@ public class GameService {
         Street preFlop = new Street();
 
         int number = (tokens[1].split(": ")[1].charAt(0) - '0');
+        game.setPlayersNumber(number);
 
         for (int i = 0; i < number; i++) {
             String[] playerData = tokens[i + 2].split(" ");
@@ -135,7 +145,7 @@ public class GameService {
             if (fileName.endsWith("Holdem.txt")) {
                 tournamentNumber = getInt(fileName.split(Pattern.quote(" ("))[1]);
                 parseFile(readFile(fileName));
-            } // else file.delete();
+            } //else file.delete();
         }
         return gameList;
     }

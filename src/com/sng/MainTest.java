@@ -1,10 +1,7 @@
 package com.sng;
 
 import com.sng.screen.*;
-import com.sng.screen.figures.Game;
-import com.sng.screen.figures.Player;
-import com.sng.screen.figures.State;
-import com.sng.screen.figures.Street;
+import com.sng.screen.figures.*;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -30,15 +27,24 @@ public class MainTest {
             Street preFlop = game.getPreFlop();
             int playerIndex = preFlop.getPlayerIndex(game.getPlayerName());
             Player player = preFlop.getPlayer(playerIndex);
-            State state = player.getState();
-            if (state != State.FOLD && state != State.BIG_BLIND) {
-                //if (state == State.BIG_BLIND) {
-                //if (true) {
-                count++;
-                System.out.println(" bb " + game.getBigBlind() + " stack " + player.getStack() +
-                        " " + preFlop.getCards() +
-                        " move " + state + " " + player.getPreviousState() + " " + player.getBet() +
-                        " ");
+            Move move = player.getMoves().getLast();
+            State state = move.getState();
+
+            if (preFlop.getCards().get(1).getRank().toString().equals("A")) {
+                //  if (preFlop.getCards().get(0).getRank().toString().equalsIgnoreCase(preFlop.getCards().get(1).getRank().toString())) {
+                if (state != State.FOLD
+                        && state != State.BIG_BLIND
+                        && state != State.CHECK
+                        && (player.getMoves().getLast().getBet() > game.getBigBlind())
+                        ) {
+                    //if (state == State.BIG_BLIND) {
+                    //if (true) {
+                    count++;
+                    System.out.println(" bb " + game.getBigBlind() + " stack " + player.getStack() +
+                            " " + preFlop.getCards() +
+                            " " + state + " " + move.getBet() + " " + move.getStack() +
+                            " ");
+                }
             }
         }
         System.out.println("number: " + count);

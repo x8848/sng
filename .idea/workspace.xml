@@ -2,82 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="403156d5-e36c-42f6-b84d-fad856406b69" name="Default" comment="parse &amp; analyze hand history files folder">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141118 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63584168) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141119 Tournament $0.90 + $0.10 'The Daily $1' - $500 Guaranteed (63611439) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141119 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63603426) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $0.90 + $0.10 $200 Guaranteed (63632044) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $0.90 + $0.10 'The Daily $1' - $500 Guaranteed (63640602) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63648437) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63631682) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (63632410) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141120 Tournament $2 + $0.20 The $300 GTD 1+1 Knockout (63657435) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $1.15 + $0.15 $1,000 Guaranteed Turbo 2R1A (63661111) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $1.35 + $0.15 $250 Guaranteed Turbo (63663208) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63661198) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $1.35 + $0.15 $400 Guaranteed (63675224) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63667944) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141121 Tournament $2.70 + $0.30 $800 Guaranteed SuperTurbo VeryDeep (63662684) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Sit &amp; Go $0.90 + $0.10 40-Seats (63735267) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Sit &amp; Go $0.90 + $0.10 40-Seats (63737609) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Tournament $0.90 + $0.10 $200 Guaranteed (63692467) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Tournament $1.15 + $0.15 $1,000 Guaranteed Turbo 2R1A (63691972) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63692073) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141122 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (63692861) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.85 + $0.15 9-Handed (63774294) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.85 + $0.15 9-Handed (63774415) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.85 + $0.15 9-Handed (63774439) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.85 + $0.15 9-Handed (63774454) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.90 + $0.10 40-Seats (63766852) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.90 + $0.10 40-Seats (63767367) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Sit &amp; Go $0.90 + $0.10 40-Seats (63774347) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63736241) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141123 Tournament $1.15 + $0.15 $1,000 Guaranteed Turbo 2R1A (63723717) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Sit &amp; Go $0.85 + $0.15 9-Handed (63805562) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Sit &amp; Go $0.85 + $0.15 9-Handed (63805633) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Sit &amp; Go $0.85 + $0.15 9-Handed (63805683) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Sit &amp; Go $0.85 + $0.15 9-Handed (63805746) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Sit &amp; Go $0.90 + $0.10 40-Seats (63805442) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (63760921) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (63774725) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (63774300) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141124 Tournament $1.35 + $0.15 $400 Guaranteed (63764600) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63830544) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63830669) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63830795) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63830919) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63839725) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63839780) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63839889) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.85 + $0.15 9-Handed (63840038) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.90 + $0.10 40-Seats (63830420) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Sit &amp; Go $0.90 + $0.10 40-Seats (63839697) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (63785083) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63797255) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141125 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63789278) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Sit &amp; Go $0.85 + $0.15 9-Handed (63860097) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Sit &amp; Go $0.85 + $0.15 9-Handed (63860132) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Sit &amp; Go $0.85 + $0.15 9-Handed (63860179) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Sit &amp; Go $0.85 + $0.15 9-Handed (63860193) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Sit &amp; Go $0.90 + $0.10 40-Seats (63859978) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63826504) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Tournament $1.35 + $0.15 $400 Guaranteed (63823650) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141126 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63816598) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141127 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (63841918) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141127 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63855469) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141127 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63845500) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141127 Tournament $1.70 + $0.30 $1,200 Guaranteed with PokerCAMs (63860524) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141128 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63885236) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141128 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63875554) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (63968488) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (63962643) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (63980796) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (63974003) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $1.30 + $0.20 $1,200 Guaranteed Turbo R&amp;A (63979228) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141201 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63966180) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (64002116) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $1.35 + $0.15 $400 Guaranteed (63999162) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (63994238) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141117 Tournament $1.30 + $0.20 $500 Guaranteed R&amp;A Turbo (63571285) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (63991130) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (64007674) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (64007303) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (64021840) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (64017048) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (64032930) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (64032475) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $1.30 + $0.20 $1,200 Guaranteed Turbo R&amp;A (64031419) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $1.30 + $0.20 $500 Guaranteed R&amp;A Turbo (64033945) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $1.35 + $0.15 $400 Guaranteed (64024247) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $1.70 + $0.30 $1,200 Guaranteed with PokerCAMs (64032058) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $2 + $0.20 The $300 GTD 1+1 Knockout (64035993) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.85 + $0.15 9-Handed (64092739) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.85 + $0.15 9-Handed (64092829) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.85 + $0.15 9-Handed (64092898) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.85 + $0.15 9-Handed (64092932) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.85 + $0.15 9-Handed (64092973) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.90 + $0.10 40-Seats (64092584) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (64049793) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (64042910) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (64062337) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (64061959) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Tournament $1.30 + $0.20 $1,200 Guaranteed Turbo R&amp;A (64060890) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141208 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (64168251) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141208 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (64161383) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141208 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (64181549) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141208 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (64181101) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141208 Tournament $1.30 + $0.20 $1,200 Guaranteed Turbo R&amp;A (64179867) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141209 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (64199903) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141209 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (64192694) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141209 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (64212100) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141209 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (64211749) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141209 Tournament $1.30 + $0.20 $1,200 Guaranteed Turbo R&amp;A (64210713) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament $0.90 + $0.10 $100 GTD 6 Handed Turbo - POKERCAM (64381307) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament $0.90 + $0.10 'The Daily $1' - $500 Guaranteed (64379112) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (64386976) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (64377243) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament $1.35 + $0.15 $750 Guaranteed Turbo  (64399329) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament Free $5,000 Lucky Star Freeroll (64380542) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $0.90 + $0.09 $3,000 Guaranteed 99c R&amp;A FRENZY (64395628) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (64419483) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $1.15 + $0.15 $1,000 Guaranteed Turbo 2R1A (64401566) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (64409364) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $1.35 + $0.15 $500 Guaranteed Turbo  (64402450) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $1.70 + $0.30 $1,000 Guaranteed with PokerCAMs (64398973) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament Free All in Gift Tournament (64367734) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Porto $0.12-$0.25 Pot Limit Omaha.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $0.90 + $0.09 $1,200 Guaranteed 99c R&amp;A FRENZY !!! (64433988) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $0.90 + $0.09 $1,200 Guaranteed 99c R&amp;A FRENZY !!! (64433988) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $0.90 + $0.09 $2,000 Guaranteed 99c R&amp;A FRENZY  (64432225) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $0.90 + $0.09 $2,000 Guaranteed 99c R&amp;A FRENZY  (64432225) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (64449533) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (64449533) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $100 Guaranteed PLO8 - 6 Max (64446401) Pot Limit OmahaHL.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $100 Guaranteed PLO8 - 6 Max (64446401) Pot Limit OmahaHL.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (64431991) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (64431991) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $400 Guaranteed (64446407) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $400 Guaranteed (64446407) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $400 Guaranteed PL Omaha + R (64444683) Pot Limit Omaha.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $400 Guaranteed PL Omaha + R (64444683) Pot Limit Omaha.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (64439111) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (64439111) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (64432741) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (64432741) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.70 + $0.30 $1,200 Guaranteed with PokerCAMs (64455051) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.70 + $0.30 $1,200 Guaranteed with PokerCAMs (64455051) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.80 + $0.20 $500 Guaranteed Turbo - 2nd Chance (64446395) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.80 + $0.20 $500 Guaranteed Turbo - 2nd Chance (64446395) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $2.25 + $0.25 $200 Guaranteed Omaha - Turbo-Deep (64434265) Pot Limit Omaha.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $2.25 + $0.25 $200 Guaranteed Omaha - Turbo-Deep (64434265) Pot Limit Omaha.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $2.75 + $0.25 $800 Guaranteed - Turbo-Deep (64446394) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $2.75 + $0.25 $800 Guaranteed - Turbo-Deep (64446394) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $0.90 + $0.09 $1,200 Guaranteed 99c R&amp;A FRENZY !!! (64464878) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $0.90 + $0.10 $200 Guaranteed (64463232) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $0.90 + $0.10 $200 Guaranteed (64463232) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.35 + $0.15 $250 Guaranteed (64464879) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (64462842) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (64462842) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (64463623) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (64463623) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.70 + $0.30 $750 Guaranteed with PokerCAMs (64473270) No Limit Holdem.txt - Summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.70 + $0.30 $750 Guaranteed with PokerCAMs (64473270) No Limit Holdem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sng/screen/figures/Move.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sng/com/sng/game/cards/Card.class" afterPath="$PROJECT_DIR$/out/production/sng/com/sng/game/cards/Card.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sng/com/sng/MainTest.class" afterPath="$PROJECT_DIR$/out/production/sng/com/sng/MainTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hands/888poker20141119 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63603426) No Limit Holdem.txt" afterPath="$PROJECT_DIR$/hands/888poker20141119 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63603426) No Limit Holdem.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/game/cards/Card.java" afterPath="$PROJECT_DIR$/src/com/sng/game/cards/Card.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/screen/figures/Game.java" afterPath="$PROJECT_DIR$/src/com/sng/screen/figures/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/GameService.java" afterPath="$PROJECT_DIR$/src/com/sng/GameService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/MainTest.java" afterPath="$PROJECT_DIR$/src/com/sng/MainTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/screen/figures/Player.java" afterPath="$PROJECT_DIR$/src/com/sng/screen/figures/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/screen/figures/State.java" afterPath="$PROJECT_DIR$/src/com/sng/screen/figures/State.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/screen/figures/Street.java" afterPath="$PROJECT_DIR$/src/com/sng/screen/figures/Street.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sng.iws" />
@@ -104,24 +123,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.txt">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.5" vertical-offset="38" max-vertical-offset="33966">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sng/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1479">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.819797" vertical-offset="0" max-vertical-offset="1581">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,9 +138,31 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1022" max-vertical-offset="1649">
-              <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1156">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1143#1144#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Move.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Move.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,23 +170,45 @@
       <file leaf-file-name="Street.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Street.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2380">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2037#2038#0" expanded="true" />
+                <element signature="e#2081#2082#0" expanded="true" />
+                <element signature="e#2889#2890#0" expanded="true" />
+                <element signature="e#2950#2951#0" expanded="true" />
+                <element signature="e#3368#3369#0" expanded="true" />
+                <element signature="e#3396#3397#0" expanded="true" />
+                <element signature="e#3439#3440#0" expanded="true" />
+                <element signature="e#3472#3473#0" expanded="true" />
+                <element signature="e#3502#3503#0" expanded="true" />
+                <element signature="e#3530#3531#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sng/GameService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8135593" vertical-offset="1976" max-vertical-offset="2805">
-              <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1734" max-vertical-offset="3009">
+              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4145#4146#0" expanded="true" />
+                <element signature="e#4212#4213#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="25976">
+              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,10 +216,14 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1071">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1173">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -196,17 +250,18 @@
         <option value="$PROJECT_DIR$/src/com/sng/screen/Game.java" />
         <option value="$PROJECT_DIR$/src/com/sng/screen/figures/FileParseException.java" />
         <option value="$PROJECT_DIR$/test.txt" />
-        <option value="$PROJECT_DIR$/src/com/sng/screen/figures/State.java" />
         <option value="$PROJECT_DIR$/src/com/sng/SkipThisGameException.java" />
         <option value="$PROJECT_DIR$/src/com/sng/GameParser.java" />
         <option value="$PROJECT_DIR$/src/com/sng/game/cards/Rank.java" />
         <option value="$PROJECT_DIR$/src/com/sng/game/cards/Suit.java" />
         <option value="$PROJECT_DIR$/src/com/sng/game/cards/Card.java" />
-        <option value="$PROJECT_DIR$/src/com/sng/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/com/sng/screen/figures/State.java" />
+        <option value="$PROJECT_DIR$/src/com/sng/screen/figures/Move.java" />
         <option value="$PROJECT_DIR$/src/com/sng/screen/figures/Game.java" />
         <option value="$PROJECT_DIR$/src/com/sng/screen/figures/Player.java" />
         <option value="$PROJECT_DIR$/src/com/sng/screen/figures/Street.java" />
         <option value="$PROJECT_DIR$/src/com/sng/GameService.java" />
+        <option value="$PROJECT_DIR$/src/com/sng/MainTest.java" />
       </list>
     </option>
   </component>
@@ -257,6 +312,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -373,9 +429,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -423,8 +492,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.sng" />
       <recent name="com.sng.screen.figures" />
+      <recent name="com.sng" />
       <recent name="com.sng.screen" />
       <recent name="com.sng.Table" />
       <recent name="image" />
@@ -842,7 +911,8 @@
       <workItem from="1418605992675" duration="2809000" />
       <workItem from="1418677032928" duration="117000" />
       <workItem from="1418677371629" duration="25282000" />
-      <workItem from="1418782532843" duration="22756000" />
+      <workItem from="1418782532843" duration="23579000" />
+      <workItem from="1418947128719" duration="30802000" />
     </task>
     <task id="LOCAL-00001" summary="try git from idea">
       <created>1414632335244</created>
@@ -910,11 +980,17 @@
       <option name="project" value="LOCAL" />
       <updated>1418805568464</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="parse &amp; analyze hand history files folder">
+      <created>1418805989543</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1418805989544</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186529000" />
+    <option name="totallyTimeSpent" value="218154000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -937,7 +1013,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="786" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -947,25 +1023,25 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19144385" sideWeight="0.34275052" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5083969" sideWeight="0.3171521" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30687022" sideWeight="0.65724945" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33587787" sideWeight="0.6569579" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28074434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3001618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3389313" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40458015" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36793894" sideWeight="0.739339" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42900762" sideWeight="0.6828479" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1035,7 +1111,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="102" />
+      <option name="time" value="144" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1044,34 +1120,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sng/image/ScreenCast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1088">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/image/CheckImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="935">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/screen/PlayerButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="782">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/screen/PlayerBet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="816">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/MainDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
@@ -1205,13 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33123028" vertical-offset="9177" max-vertical-offset="25976">
-          <caret line="579" column="0" selection-start-line="579" selection-start-column="0" selection-end-line="579" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/screen/PlayerButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="884">
@@ -1260,7 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05379747" vertical-offset="0" max-vertical-offset="632">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,26 +1308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05379747" vertical-offset="0" max-vertical-offset="632">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05379747" vertical-offset="0" max-vertical-offset="632">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3322785" vertical-offset="2952" max-vertical-offset="9129">
-          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="false" />
-            <element signature="e#10148#10149#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1311,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="99" max-vertical-offset="748">
           <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="782">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,95 +1357,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Rank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1826923" vertical-offset="264" max-vertical-offset="680">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Suit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6730769" vertical-offset="111" max-vertical-offset="527">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="false" />
+            <element signature="e#208#209#0" expanded="false" />
+            <element signature="e#469#470#0" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="2187" max-vertical-offset="3842">
+          <caret line="174" column="21" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="612">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.71253073" vertical-offset="220" max-vertical-offset="646">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
           <folding>
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="false" />
+            <element signature="e#632#633#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3027" max-vertical-offset="9095">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/util/EnumSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33105803" vertical-offset="855" max-vertical-offset="7531">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="629">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3314917" vertical-offset="5065" max-vertical-offset="20349">
+          <caret line="336" column="19" selection-start-line="336" selection-start-column="19" selection-end-line="336" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="323" max-vertical-offset="33966">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/State.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5" vertical-offset="38" max-vertical-offset="33966">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1734694" vertical-offset="0" max-vertical-offset="294">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="25976">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sng/GameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1734" max-vertical-offset="3009">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4145#4146#0" expanded="true" />
+            <element signature="e#4212#4213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Street.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2380">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2889#2890#0" expanded="true" />
+            <element signature="e#2950#2951#0" expanded="true" />
+            <element signature="e#3368#3369#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
+            <element signature="e#3439#3440#0" expanded="true" />
+            <element signature="e#3472#3473#0" expanded="true" />
+            <element signature="e#3502#3503#0" expanded="true" />
+            <element signature="e#3530#3531#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1071">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1173">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1022" max-vertical-offset="1649">
-          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Street.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1156">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1479">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/GameService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8135593" vertical-offset="1976" max-vertical-offset="2805">
-          <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.819797" vertical-offset="0" max-vertical-offset="1581">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

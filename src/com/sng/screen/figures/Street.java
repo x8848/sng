@@ -4,6 +4,7 @@ import com.sng.GameService;
 import com.sng.game.cards.Card;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Street {
@@ -20,9 +21,13 @@ public class Street {
     public void setCard(Card card) {
         if (cards == null) cards = new ArrayList<>();
         cards.add(card);
+        if (cards.size() > 1) {
+            Collections.sort(cards);
+        }
     }
 
     public void parseMove(String token) {
+        int bet = 0;
         int moveIndex = 1;
         int betIndex = 2;
 
@@ -35,22 +40,43 @@ public class Street {
             moveIndex = 2;
             betIndex = 4;
         }
-        player.parseState(split[moveIndex]);
 
-        State state = player.getState();
+        State state = parseState(split[moveIndex]);
 
         if (state == State.ANTE) {
             betIndex = 3;
         }
 
         if (state != State.CHECK && state != State.FOLD) {
-            int bet = GameService.getInt(split[betIndex]);
-            player.setBet(bet);
+            bet = GameService.getInt(split[betIndex]);
             bank = bank + bet;
             pot = pot + bet;
         }
-
+        player.addMove(state, bet);
         setPlayer(index, player);
+    }
+
+    public State parseState(String string) {
+        switch (string) {
+            case "small":
+                return State.SMALL_BLIND;
+            case "big":
+                return State.BIG_BLIND;
+            case "folds":
+                return State.FOLD;
+            case "checks":
+                return State.CHECK;
+            case "bets":
+                return State.BET;
+            case "calls":
+                return State.CALL;
+            case "raises":
+                return State.RAISE;
+            case "ante":
+                return State.ANTE;
+            default:
+                throw new FileParseException();
+        }
     }
 
     public Player getPlayer(int index) {
@@ -72,10 +98,9 @@ public class Street {
         List<Player> nextStreetPlayerList = new ArrayList<>();
 
         for (Player player : playerList) {
-            if (player.getState() != State.FOLD) {
+            State state = player.getMoves().getLast().getState();
+            if (state != State.FOLD && state != State.ALL_IN) {
                 Player clone = player.clone();
-                clone.setStack(player.getStack() - player.getBet());
-                clone.setBet(0);
                 nextStreetPlayerList.add(clone);
             }
         }
@@ -106,5 +131,13 @@ public class Street {
 
     public List<Card> getCards() {
         return cards;
+    }
+
+    public List<Player> getPlayerList() {
+        return playerList;
+    }
+
+    public void skipGame() {
+        cards = null;
     }
 }

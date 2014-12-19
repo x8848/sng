@@ -847,6 +847,56 @@ silkys14 collected [ $2,600 ]
 
 
 
+#Game No : 482238456
+***** 888poker Hand History for Game 482238456 *****
+$100/$200 Blinds No Limit Holdem - *** 19 11 2014 06:15:23
+Tournament #63603426 $1.35 + $0.15 - Table #17 (Real Money)
+Seat 4 is the button
+Total number of players : 7
+Seat 1:  ( $3,237 )
+Seat 4:  ( $5,000 )
+Seat 5:  ( $5,586 )
+Seat 6:  ( $5,332 )
+Seat 7:  ( $6,165 )
+Seat 9:  ( $7,251 )
+Seat 10:  ( $9,417 )
+ posts ante [$20]
+ posts ante [$20]
+ posts ante [$20]
+ posts ante [$20]
+ posts ante [$20]
+ posts ante [$20]
+ posts ante [$20]
+ posts small blind [$100]
+ posts big blind [$200]
+** Dealing down cards **
+Dealt to  [ Ts, 7h ]
+ folds
+ calls [$200]
+ folds
+ calls [$200]
+ folds
+ folds
+ checks
+** Dealing flop ** [ 5c, 7d, 9d ]
+ bets [$200]
+ calls [$200]
+ calls [$200]
+** Dealing turn ** [ 5s ]
+ bets [$200]
+ calls [$200]
+ raises [$2,240]
+ raises [$4,712]
+ folds
+ calls [$577]
+** Dealing river ** [ 6c ]
+** Summary **
+ shows [ 5d, 4s ]
+ shows [ 5h, 8h ]
+ collected [ $7,274 ]
+
+
+
 #Game No : 482238564
 ***** 888poker Hand History for Game 482238564 *****
 $100/$200 Blinds No Limit Holdem - *** 19 11 2014 06:16:32

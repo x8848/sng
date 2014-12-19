@@ -1,6 +1,6 @@
 package com.sng.game.cards;
 
-public class Card {
+public class Card implements Comparable<Card>{
     private final Rank rank;
     private final Suit suit;
 
@@ -15,8 +15,21 @@ public class Card {
         return new Card(rank, suit);
     }
 
+    public Rank getRank() {
+        return rank;
+    }
+
+    public Suit getSuit() {
+        return suit;
+    }
+
     @Override
     public String toString() {
         return rank.toString() + suit.toString();
+    }
+
+    @Override
+    public int compareTo(Card card) {
+        return rank.compareTo(card.getRank());
     }
 }
