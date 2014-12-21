@@ -1,9 +1,9 @@
 package com.sng.game.cards;
 
 public enum Suit {
-    Hearts("h"),
     Clubs("c"),
     Diamonds("d"),
+    Hearts("h"),
     Spades("s");
 
     private final String value;

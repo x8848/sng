@@ -35,7 +35,7 @@ public class MainTest {
                 if (state != State.FOLD
                         && state != State.BIG_BLIND
                         && state != State.CHECK
-                        && (player.getMoves().getLast().getBet() > game.getBigBlind())
+                       // && (player.getMoves().getLast().getBet() > game.getBigBlind())
                         ) {
                     //if (state == State.BIG_BLIND) {
                     //if (true) {

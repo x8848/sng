@@ -2,101 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="403156d5-e36c-42f6-b84d-fad856406b69" name="Default" comment="parse &amp; analyze hand history files folder">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141117 Tournament $1.30 + $0.20 $500 Guaranteed R&amp;A Turbo (63571285) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (63991130) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (64007674) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141202 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (64007303) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (64021840) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (64017048) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (64032930) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (64032475) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $1.30 + $0.20 $1,200 Guaranteed Turbo R&amp;A (64031419) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $1.30 + $0.20 $500 Guaranteed R&amp;A Turbo (64033945) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $1.35 + $0.15 $400 Guaranteed (64024247) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $1.70 + $0.30 $1,200 Guaranteed with PokerCAMs (64032058) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141203 Tournament $2 + $0.20 The $300 GTD 1+1 Knockout (64035993) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.85 + $0.15 9-Handed (64092739) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.85 + $0.15 9-Handed (64092829) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.85 + $0.15 9-Handed (64092898) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.85 + $0.15 9-Handed (64092932) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.85 + $0.15 9-Handed (64092973) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Sit &amp; Go $0.90 + $0.10 40-Seats (64092584) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (64049793) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (64042910) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (64062337) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (64061959) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141204 Tournament $1.30 + $0.20 $1,200 Guaranteed Turbo R&amp;A (64060890) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141208 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (64168251) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141208 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (64161383) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141208 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (64181549) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141208 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (64181101) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141208 Tournament $1.30 + $0.20 $1,200 Guaranteed Turbo R&amp;A (64179867) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141209 Tournament $0.90 + $0.10 $100 Guaranteed with PokerCAMs (64199903) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141209 Tournament $0.90 + $0.10 $800 Guaranteed with PokerCAMs (64192694) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141209 Tournament $0.90 + $0.10 The $500 GTD Roller Coaster (64212100) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141209 Tournament $1.10 + $0.15 $200 Guaranteed - Top 9 Paid (64211749) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141209 Tournament $1.30 + $0.20 $1,200 Guaranteed Turbo R&amp;A (64210713) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament $0.90 + $0.10 $100 GTD 6 Handed Turbo - POKERCAM (64381307) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament $0.90 + $0.10 'The Daily $1' - $500 Guaranteed (64379112) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (64386976) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (64377243) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament $1.35 + $0.15 $750 Guaranteed Turbo  (64399329) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141215 Tournament Free $5,000 Lucky Star Freeroll (64380542) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $0.90 + $0.09 $3,000 Guaranteed 99c R&amp;A FRENZY (64395628) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (64419483) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $1.15 + $0.15 $1,000 Guaranteed Turbo 2R1A (64401566) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (64409364) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $1.35 + $0.15 $500 Guaranteed Turbo  (64402450) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament $1.70 + $0.30 $1,000 Guaranteed with PokerCAMs (64398973) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141216 Tournament Free All in Gift Tournament (64367734) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Porto $0.12-$0.25 Pot Limit Omaha.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $0.90 + $0.09 $1,200 Guaranteed 99c R&amp;A FRENZY !!! (64433988) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $0.90 + $0.09 $1,200 Guaranteed 99c R&amp;A FRENZY !!! (64433988) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $0.90 + $0.09 $2,000 Guaranteed 99c R&amp;A FRENZY  (64432225) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $0.90 + $0.09 $2,000 Guaranteed 99c R&amp;A FRENZY  (64432225) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (64449533) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.10 + $0.15 Wacko $1,000 GTD - 6 max Turbo R&amp;A (64449533) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $100 Guaranteed PLO8 - 6 Max (64446401) Pot Limit OmahaHL.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $100 Guaranteed PLO8 - 6 Max (64446401) Pot Limit OmahaHL.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (64431991) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (64431991) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $400 Guaranteed (64446407) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $400 Guaranteed (64446407) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $400 Guaranteed PL Omaha + R (64444683) Pot Limit Omaha.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $400 Guaranteed PL Omaha + R (64444683) Pot Limit Omaha.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (64439111) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $500 Guaranteed - 6 max R&amp;A (64439111) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (64432741) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (64432741) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.70 + $0.30 $1,200 Guaranteed with PokerCAMs (64455051) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.70 + $0.30 $1,200 Guaranteed with PokerCAMs (64455051) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.80 + $0.20 $500 Guaranteed Turbo - 2nd Chance (64446395) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $1.80 + $0.20 $500 Guaranteed Turbo - 2nd Chance (64446395) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $2.25 + $0.25 $200 Guaranteed Omaha - Turbo-Deep (64434265) Pot Limit Omaha.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $2.25 + $0.25 $200 Guaranteed Omaha - Turbo-Deep (64434265) Pot Limit Omaha.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $2.75 + $0.25 $800 Guaranteed - Turbo-Deep (64446394) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141217 Tournament $2.75 + $0.25 $800 Guaranteed - Turbo-Deep (64446394) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $0.90 + $0.09 $1,200 Guaranteed 99c R&amp;A FRENZY !!! (64464878) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $0.90 + $0.10 $200 Guaranteed (64463232) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $0.90 + $0.10 $200 Guaranteed (64463232) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.35 + $0.15 $250 Guaranteed (64464879) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (64462842) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (64462842) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (64463623) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.35 + $0.15 $500 Guaranteed Turbo R&amp;A (64463623) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.70 + $0.30 $750 Guaranteed with PokerCAMs (64473270) No Limit Holdem.txt - Summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hands/888poker20141218 Tournament $1.70 + $0.30 $750 Guaranteed with PokerCAMs (64473270) No Limit Holdem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sng/screen/figures/Move.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sng/com/sng/game/cards/Card.class" afterPath="$PROJECT_DIR$/out/production/sng/com/sng/game/cards/Card.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/game/cards/hands/Hand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sng/game/cards/hands/HandImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sng/game/cards/hands/HandType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sng/com/sng/MainTest.class" afterPath="$PROJECT_DIR$/out/production/sng/com/sng/MainTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hands/888poker20141119 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63603426) No Limit Holdem.txt" afterPath="$PROJECT_DIR$/hands/888poker20141119 Tournament $1.35 + $0.15 $250 Guaranteed Turbo - Deep (63603426) No Limit Holdem.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/game/cards/Card.java" afterPath="$PROJECT_DIR$/src/com/sng/game/cards/Card.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/screen/figures/Game.java" afterPath="$PROJECT_DIR$/src/com/sng/screen/figures/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/GameService.java" afterPath="$PROJECT_DIR$/src/com/sng/GameService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/MainTest.java" afterPath="$PROJECT_DIR$/src/com/sng/MainTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/screen/figures/Player.java" afterPath="$PROJECT_DIR$/src/com/sng/screen/figures/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/screen/figures/State.java" afterPath="$PROJECT_DIR$/src/com/sng/screen/figures/State.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/screen/figures/Street.java" afterPath="$PROJECT_DIR$/src/com/sng/screen/figures/Street.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sng/game/cards/Suit.java" afterPath="$PROJECT_DIR$/src/com/sng/game/cards/Suit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sng.iws" />
@@ -123,13 +34,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sng/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.819797" vertical-offset="0" max-vertical-offset="1581">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1581">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Suit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Suit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/game/cards/hands/Hand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/hands/HandImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28851175" vertical-offset="0" max-vertical-offset="766">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/hands/HandType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rank.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Rank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <folding>
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,18 +124,9 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1156">
+            <state vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="1020">
               <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#1041#1042#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1201#1202#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,68 +139,6 @@
               <folding>
                 <element signature="e#381#382#0" expanded="true" />
                 <element signature="e#409#410#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Street.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Street.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2380">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2037#2038#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-                <element signature="e#2889#2890#0" expanded="true" />
-                <element signature="e#2950#2951#0" expanded="true" />
-                <element signature="e#3368#3369#0" expanded="true" />
-                <element signature="e#3396#3397#0" expanded="true" />
-                <element signature="e#3439#3440#0" expanded="true" />
-                <element signature="e#3472#3473#0" expanded="true" />
-                <element signature="e#3502#3503#0" expanded="true" />
-                <element signature="e#3530#3531#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sng/GameService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1734" max-vertical-offset="3009">
-              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4145#4146#0" expanded="true" />
-                <element signature="e#4212#4213#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="25976">
-              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1173">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -252,9 +167,6 @@
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/src/com/sng/SkipThisGameException.java" />
         <option value="$PROJECT_DIR$/src/com/sng/GameParser.java" />
-        <option value="$PROJECT_DIR$/src/com/sng/game/cards/Rank.java" />
-        <option value="$PROJECT_DIR$/src/com/sng/game/cards/Suit.java" />
-        <option value="$PROJECT_DIR$/src/com/sng/game/cards/Card.java" />
         <option value="$PROJECT_DIR$/src/com/sng/screen/figures/State.java" />
         <option value="$PROJECT_DIR$/src/com/sng/screen/figures/Move.java" />
         <option value="$PROJECT_DIR$/src/com/sng/screen/figures/Game.java" />
@@ -262,6 +174,15 @@
         <option value="$PROJECT_DIR$/src/com/sng/screen/figures/Street.java" />
         <option value="$PROJECT_DIR$/src/com/sng/GameService.java" />
         <option value="$PROJECT_DIR$/src/com/sng/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/com/sng/game/cards/Hand.java" />
+        <option value="$PROJECT_DIR$/src/com/sng/game/cards/Suit.java" />
+        <option value="$PROJECT_DIR$/src/api/game/cards/Hand.java" />
+        <option value="$PROJECT_DIR$/src/api/game/cards/HandType.java" />
+        <option value="$PROJECT_DIR$/src/api/game/cards/hads/Hand.java" />
+        <option value="$PROJECT_DIR$/src/api/game/cards/hands/Hand.java" />
+        <option value="$PROJECT_DIR$/src/com/sng/game/cards/Rank.java" />
+        <option value="$PROJECT_DIR$/src/com/sng/game/cards/Card.java" />
+        <option value="$PROJECT_DIR$/src/com/sng/game/cards/hands/HandImpl.java" />
       </list>
     </option>
   </component>
@@ -271,8 +192,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="786" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -302,16 +223,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -425,7 +336,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cards" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,8 +362,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="hands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -492,11 +443,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sng.game.cards.hands" />
+      <recent name="api.game.cards" />
+      <recent name="..game.cards" />
       <recent name="com.sng.screen.figures" />
       <recent name="com.sng" />
-      <recent name="com.sng.screen" />
-      <recent name="com.sng.Table" />
-      <recent name="image" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainTest">
@@ -913,6 +864,7 @@
       <workItem from="1418677371629" duration="25282000" />
       <workItem from="1418782532843" duration="23579000" />
       <workItem from="1418947128719" duration="30802000" />
+      <workItem from="1419065487168" duration="5969000" />
     </task>
     <task id="LOCAL-00001" summary="try git from idea">
       <created>1414632335244</created>
@@ -990,7 +942,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218154000" />
+    <option name="totallyTimeSpent" value="224123000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1013,7 +965,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1027,13 +979,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33587787" sideWeight="0.6569579" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15080214" sideWeight="0.6569579" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3001618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17270789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40458015" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1043,6 +994,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40458015" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1120,34 +1072,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sng/MainDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/MainDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="646">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/screen/PlayerState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="714">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/image/ScreenCast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1054">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/screen/TableCards.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="714">
@@ -1155,21 +1079,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Thread.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33203125" vertical-offset="10574" max-vertical-offset="33252">
           <caret line="695" column="29" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/awt/image/BufferedImage.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/awt/image/BufferedImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="19220" max-vertical-offset="26282">
           <caret line="1202" column="0" selection-start-line="1202" selection-start-column="0" selection-end-line="1202" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/javax/imageio/ImageIO.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/javax/imageio/ImageIO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.944445" vertical-offset="24898" max-vertical-offset="25993">
           <caret line="1295" column="32" selection-start-line="1295" selection-start-column="32" selection-end-line="1295" selection-end-column="32" />
@@ -1232,7 +1156,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/util/List.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="1344" max-vertical-offset="11356">
           <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="21" />
@@ -1246,7 +1170,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/String.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325062" vertical-offset="34597" max-vertical-offset="51952">
           <caret line="2118" column="19" selection-start-line="2118" selection-start-column="19" selection-end-line="2118" selection-end-column="19" />
@@ -1282,7 +1206,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/NullPointerException.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/lang/NullPointerException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56962025" vertical-offset="235" max-vertical-offset="901">
           <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
@@ -1315,11 +1239,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.7832168" vertical-offset="1275" max-vertical-offset="24106">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/io/File.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="19671" max-vertical-offset="37230">
           <caret line="1205" column="18" selection-start-line="1205" selection-start-column="18" selection-end-line="1205" selection-end-column="18" />
@@ -1327,14 +1250,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/ArrayIndexOutOfBoundsException.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/lang/ArrayIndexOutOfBoundsException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="99" max-vertical-offset="748">
           <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/NumberFormatException.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="782">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
@@ -1357,47 +1280,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Suit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6730769" vertical-offset="111" max-vertical-offset="527">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#208#209#0" expanded="false" />
-            <element signature="e#469#470#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="2187" max-vertical-offset="3842">
-          <caret line="174" column="21" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Rank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="612">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71253073" vertical-offset="220" max-vertical-offset="646">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="e#576#577#0" expanded="false" />
-            <element signature="e#632#633#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Object.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3027" max-vertical-offset="9095">
           <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
@@ -1405,27 +1288,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/util/EnumSet.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/util/EnumSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33105803" vertical-offset="855" max-vertical-offset="7531">
           <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Cloneable.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/lang/Cloneable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="629">
           <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/util/LinkedList.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3314917" vertical-offset="5065" max-vertical-offset="20349">
           <caret line="336" column="19" selection-start-line="336" selection-start-column="19" selection-end-line="336" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1448,7 +1328,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_11/src.zip!/java/lang/Integer.java">
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="25976">
           <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
@@ -1513,29 +1393,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Suit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/game/cards/hands/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/java/jdk1.8.0_11/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33289817" vertical-offset="1581" max-vertical-offset="3876">
+          <caret line="141" column="25" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
+          <folding>
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4391#4392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/screen/figures/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1156">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sng/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.819797" vertical-offset="0" max-vertical-offset="1581">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1581">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/hands/HandType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sng/game/cards/hands/HandImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28851175" vertical-offset="0" max-vertical-offset="766">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
           </folding>
         </state>
       </provider>
