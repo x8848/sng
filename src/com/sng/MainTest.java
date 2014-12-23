@@ -30,8 +30,8 @@ public class MainTest {
         for (Street street : game.getStreetList()) {
             table.addAll(street.getCards());
         }
-        HandImpl hand = new HandImpl(handCards, table.subList(2, 5));
-        hand.checkType();
+        HandImpl hand = new HandImpl(handCards);
+        hand.setCards(table.subList(2, 5));
         System.out.println(hand.getType());
     }
 
