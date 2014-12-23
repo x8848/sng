@@ -1,5 +1,7 @@
 package com.sng;
 
+import com.sng.game.cards.Card;
+import com.sng.game.cards.hands.HandImpl;
 import com.sng.screen.*;
 import com.sng.screen.figures.*;
 
@@ -18,7 +20,19 @@ public class MainTest {
 
     private static void testFileParser() throws IOException {
         GameService service = new GameService();
-        analyze(service.getAllGames());
+//        analyze(service.getAllGames());
+        testHand(service.getAllGames().get(0));
+    }
+
+    private static void testHand(Game game) {
+        List<Card> handCards = game.getPreFlop().getCards();
+        ArrayList<Card> table = new ArrayList<>();
+        for (Street street : game.getStreetList()) {
+            table.addAll(street.getCards());
+        }
+        HandImpl hand = new HandImpl(handCards, table.subList(2, 5));
+        hand.checkType();
+        System.out.println(hand.getType());
     }
 
     private static void analyze(List<Game> games) {
@@ -35,7 +49,7 @@ public class MainTest {
                 if (state != State.FOLD
                         && state != State.BIG_BLIND
                         && state != State.CHECK
-                       // && (player.getMoves().getLast().getBet() > game.getBigBlind())
+                    // && (player.getMoves().getLast().getBet() > game.getBigBlind())
                         ) {
                     //if (state == State.BIG_BLIND) {
                     //if (true) {

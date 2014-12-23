@@ -16,6 +16,10 @@ public class Game {
 
     List<Street> streetList = new ArrayList<>();
 
+    public List<Street> getStreetList() {
+        return streetList;
+    }
+
     public void setPlayersNumber(int playersNumber) {
         this.playersNumber = playersNumber;
     }
