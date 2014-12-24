@@ -1371,20 +1371,20 @@ Seat 9: Sylvia159 ( $4,140 )
 Goldy_009 posts small blind [$75]
 samandrews1 posts big blind [$150]
 ** Dealing down cards **
-Dealt to PapaShango19 [ 8d, 9h ]
+Dealt to PapaShango19 [ 2d, 3h ]
 Sylvia159 calls [$150]
 sticks105 folds
 PapaShango19 folds
 Blacky.63 folds
 Goldy_009 folds
 samandrews1 checks
-** Dealing flop ** [ 8h, Tc, 7d ]
+** Dealing flop ** [ 8h, Tc, 4d ]
 samandrews1 checks
 Sylvia159 checks
-** Dealing turn ** [ 6h ]
+** Dealing turn ** [ 5h ]
 samandrews1 checks
 Sylvia159 checks
-** Dealing river ** [ Jd ]
+** Dealing river ** [ Ad ]
 samandrews1 checks
 Sylvia159 checks
 ** Summary **

@@ -10,18 +10,40 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class MainTest {
     public static void main(String[] args) throws IOException {
         // testImage();
-        testFileParser();
+        //testFileParser();
+        testStraight();
+    }
+
+    private static void testStraight() {
+        String[] cards = {"2h", "3h", "4h", "5h", "6h", "7c"};
+        HandImpl hand = new HandImpl();
+        for (String card : cards) {
+            hand.setCards(Card.parse(card));
+        }
+        System.out.println(cards);
+        System.out.println(hand.getType());
+        System.out.println(hand.getBestHand());
+
     }
 
     private static void testFileParser() throws IOException {
         GameService service = new GameService();
 //        analyze(service.getAllGames());
-        testHand(service.getAllGames().get(0));
+//        testHand(service.getAllGames().get(4));
+        int count = 0;
+        for (Game game : service.getAllGames()) {
+            testHand(game);
+            count++;
+        }
+        System.out.println(count);
+
+
     }
 
     private static void testHand(Game game) {
@@ -31,8 +53,14 @@ public class MainTest {
             table.addAll(street.getCards());
         }
         HandImpl hand = new HandImpl(handCards);
-        hand.setCards(table.subList(2, 5));
+        if (table.size() == 0) return;
+        hand.setCards(table);
+        Collections.sort(table);
+        System.out.println(handCards + ", " + table);
         System.out.println(hand.getType());
+        System.out.println(hand.getBestHand());
+        System.out.println(hand.PlayerCardsTakePart());
+        System.out.println("------------------------------");
     }
 
     private static void analyze(List<Game> games) {

@@ -9,19 +9,26 @@ import java.util.*;
 
 public class HandImpl implements Hand {
     List<Card> playerCards;
+
+    List<Card> bestHand = new ArrayList<>();
     HandType type = HandType.HighCard;
 
 
-    Map<Rank, List<Card>> rankMap = new TreeMap<>();
+    NavigableMap<Rank, List<Card>> rankMap = new TreeMap<>();
     Map<Suit, List<Card>> suitMap = new TreeMap<>();
 
     public HandImpl(List<Card> playerCards) {
         this.playerCards = playerCards;
+        bestHand = playerCards;
 
         if (playerCards.get(0).getRank() == playerCards.get(1).getRank()) {
             type = HandType.OnePair;
         }
         setCards(playerCards);
+    }
+
+    public HandImpl() {
+
     }
 
     public void setCards(List<Card> cards) {
@@ -55,26 +62,94 @@ public class HandImpl implements Hand {
     }
 
     private HandType checkType() {
-        if (checkFlash() && checkStraight()) return HandType.StraightFlush;
+        boolean checkFlash = checkFlash();
+        List<Card> flash = bestHand;
 
-        Map<Integer, List<Rank>> sizeMap = getSizeMap();
+        if (checkFlash) {
+            if ((checkStraight()) && flash.equals(bestHand)) {
+                return HandType.StraightFlush;
+            }
+        }
+
+        Map<Integer, LinkedList<Rank>> sizeMap = getSizeMap();
 
         Set<Integer> sizes = sizeMap.keySet();
 
         if (sizes.contains(4)) {
+            bestHand = new ArrayList<>();
+            bestHand.addAll(rankMap.get(sizeMap.get(4).getLast()));
+            bestHand.add(rankMap.lastEntry().getValue().get(0));
             return HandType.Quads;
         }
         if (sizes.contains(3)) {
-            if (sizeMap.get(3).size() == 2 || (sizes.contains(2))) {
+            LinkedList<Rank> ranks = sizeMap.get(3);
+            if (ranks.size() == 2 || (sizes.contains(2))) {
+                bestHand = new ArrayList<>();
+                bestHand.addAll(rankMap.get(ranks.getLast()));
+                ranks.removeLast();
+                if (ranks.size() != 0)
+                    bestHand.addAll(rankMap.get(ranks.getLast()).subList(0, 2)); // take first 2 cards from the lower set
+                else
+                    bestHand.addAll(rankMap.get(sizeMap.get(2).getLast()));
                 return HandType.FullHouse;
             }
-            if (checkFlash()) return HandType.Flush;
-            if (checkStraight()) return HandType.Straight;
+        }
+        if (checkFlash) {
+            bestHand = flash;
+            return HandType.Flush;
+        }
+
+        if (checkStraight()) return HandType.Straight;
+
+        if (sizes.contains(3)) {
+            bestHand = new ArrayList<>();
+            bestHand.addAll(rankMap.get(sizeMap.get(3).getLast()));
+
+            LinkedList<Rank> ranks = sizeMap.get(1);
+
+            while (bestHand.size() != 5) {
+                bestHand.addAll(rankMap.get(ranks.getLast()));
+                ranks.removeLast();
+            }
             return HandType.Set;
         }
         if (sizes.contains(2)) {
-            return (sizeMap.get(2).size() >= 2) ? HandType.TwoPairs : HandType.OnePair;
+            bestHand = new ArrayList<>();
+
+            LinkedList<Rank> ranks = sizeMap.get(2);
+            while (ranks.size() != 0 && bestHand.size() != 4) {
+                bestHand.addAll(rankMap.get(ranks.getLast()));
+                ranks.removeLast();
+            }
+            if (bestHand.size() == 2) {
+                ranks = sizeMap.get(1);
+                while (bestHand.size() != 5) {
+                    bestHand.addAll(rankMap.get(ranks.getLast()));
+                    ranks.removeLast();
+                }
+                return HandType.OnePair;
+            } else {
+                Rank last = null;
+                if (sizeMap.containsKey(1)) {
+                    last = sizeMap.get(1).getLast();
+                }
+                if (ranks.size() != 0) {
+                    Rank first = ranks.getFirst();
+                    if (last != null) {
+                        if (first.compareTo(last) > 0) last = first;
+                    } else
+                        last = first;
+                }
+                bestHand.add(rankMap.get(last).get(0));
+                return HandType.TwoPairs;
+            }
         }
+
+        ArrayList<Card> allCards = new ArrayList<>();
+        for (List<Card> cards : rankMap.values())
+            allCards.addAll(cards);
+        int size = allCards.size();
+        bestHand = allCards.subList(size - 5, size);
         return HandType.HighCard;
     }
 
@@ -82,30 +157,56 @@ public class HandImpl implements Hand {
         if (rankMap.keySet().size() < 5) return false;
 
         Iterator<Rank> iterator = rankMap.keySet().iterator();
-        Rank current = null;
-        Rank next;
-        int counter = 0;
+        Rank previous = null;
+        List<Card> straightCards = new ArrayList<>();
 
         while (iterator.hasNext()) {
-            next = iterator.next();
+            Rank current = iterator.next();
 
-            if (current == null) {
-                current = next;
+            if (previous == null) {
+                previous = current;
                 continue;
             }
-
-            if (current.ordinal() == next.ordinal() + 1) {
-                counter++;
+            if (previous.ordinal() + 1 == current.ordinal()) {
+                if (straightCards.size() == 0) {
+                    straightCards.add(rankMap.get(previous).get(0));
+                }
+                straightCards.add(rankMap.get(current).get(0));
+            } else {
+                if (straightCards.size() >= 4) break;
+                straightCards = new ArrayList<>();
             }
-            current = next;
-
+            previous = current;
         }
-        return (counter == 5);
+
+        int size = straightCards.size();
+
+        if ((size == 4) && (straightCards.get(0).getRank() == Rank.Two) && (rankMap.keySet().contains(Rank.Ace))) {
+            bestHand = new ArrayList<>();
+            bestHand.addAll(straightCards);
+            bestHand.add(rankMap.get(Rank.Ace).get(0));
+            return true;
+        }
+
+        if (size == 5) {
+            checkStraightFlush();
+            bestHand = straightCards.subList(size - 5, size);
+            return true;
+        }
+        return false;
+    }
+
+    private void checkStraightFlush() {
+
     }
 
     private boolean checkFlash() {
         for (List<Card> cards : suitMap.values()) {
-            if (cards.size() >= 5) {
+            int size = cards.size();
+            if (size >= 5) {
+                Collections.sort(cards);
+                bestHand = new ArrayList<>();
+                bestHand.addAll(cards.subList(size - 5, size));
                 return true;
             }
         }
@@ -118,17 +219,30 @@ public class HandImpl implements Hand {
         return type;
     }
 
-    private Map<Integer, List<Rank>> getSizeMap() {
-        Map<Integer, List<Rank>> rankSizes = new TreeMap();
+    private Map<Integer, LinkedList<Rank>> getSizeMap() {
+        Map<Integer, LinkedList<Rank>> rankSizes = new TreeMap<>();
         for (Rank rank : rankMap.keySet()) {
             int size = rankMap.get(rank).size();
-            List<Rank> ranks = rankSizes.get(size);
+            LinkedList<Rank> ranks = rankSizes.get(size);
             if (ranks == null) {
-                ranks = new ArrayList<>();
+                ranks = new LinkedList<>();
             }
             ranks.add(rank);
+            Collections.sort(ranks);
             rankSizes.put(size, ranks);
         }
         return rankSizes;
+    }
+
+    public List<Card> getBestHand() {
+        Collections.sort(bestHand);
+        return bestHand;
+    }
+
+    public boolean PlayerCardsTakePart() {
+        for (Card playerCard : playerCards) {
+            if (bestHand.contains(playerCard)) return true;
+        }
+        return false;
     }
 }
