@@ -9,10 +9,8 @@ import java.util.*;
 
 public class HandImpl implements Hand {
     List<Card> playerCards;
-
     List<Card> bestHand = new ArrayList<>();
     HandType type = HandType.HighCard;
-
 
     NavigableMap<Rank, List<Card>> rankMap = new TreeMap<>();
     Map<Suit, List<Card>> suitMap = new TreeMap<>();
@@ -28,7 +26,6 @@ public class HandImpl implements Hand {
     }
 
     public HandImpl() {
-
     }
 
     public void setCards(List<Card> cards) {
@@ -62,17 +59,12 @@ public class HandImpl implements Hand {
     }
 
     private HandType checkType() {
-        boolean checkFlash = checkFlash();
-        List<Card> flash = bestHand;
-
-        if (checkFlash) {
-            if ((checkStraight()) && flash.equals(bestHand)) {
-                return HandType.StraightFlush;
-            }
+        HandType straightType = checkStraight();
+        if (straightType == HandType.StraightFlush) {
+            return straightType;
         }
 
         Map<Integer, LinkedList<Rank>> sizeMap = getSizeMap();
-
         Set<Integer> sizes = sizeMap.keySet();
 
         if (sizes.contains(4)) {
@@ -94,12 +86,12 @@ public class HandImpl implements Hand {
                 return HandType.FullHouse;
             }
         }
-        if (checkFlash) {
-            bestHand = flash;
+
+        if (checkFlush()) {
             return HandType.Flush;
         }
 
-        if (checkStraight()) return HandType.Straight;
+        if (straightType != null) return HandType.Straight;
 
         if (sizes.contains(3)) {
             bestHand = new ArrayList<>();
@@ -153,8 +145,8 @@ public class HandImpl implements Hand {
         return HandType.HighCard;
     }
 
-    private boolean checkStraight() {
-        if (rankMap.keySet().size() < 5) return false;
+    private HandType checkStraight() {
+        if (rankMap.keySet().size() < 5) return null;
 
         Iterator<Rank> iterator = rankMap.keySet().iterator();
         Rank previous = null;
@@ -185,22 +177,41 @@ public class HandImpl implements Hand {
             bestHand = new ArrayList<>();
             bestHand.addAll(straightCards);
             bestHand.add(rankMap.get(Rank.Ace).get(0));
-            return true;
+            return HandType.Straight;
         }
 
-        if (size == 5) {
-            checkStraightFlush();
-            bestHand = straightCards.subList(size - 5, size);
-            return true;
+        if (size >= 5) {
+            LinkedList<List<Card>> flushList = new LinkedList<>();
+
+            for (int i = 0; i <= size - 5; i++) {
+                bestHand = straightCards.subList(i, 5 + i);
+                if (isItFlush(bestHand)) {
+                    flushList.add(bestHand);
+                }
+            }
+            if (flushList.size() != 0) {
+                bestHand = flushList.getLast();
+                return HandType.StraightFlush;
+            }
+            return HandType.Straight;
         }
-        return false;
+        return null;
     }
 
-    private void checkStraightFlush() {
-
+    private boolean isItFlush(List<Card> cards) {
+        Iterator<Card> iterator = cards.iterator();
+        Suit previous = null;
+        while (iterator.hasNext()) {
+            Suit current = iterator.next().getSuit();
+            if (previous != null) {
+                if (!previous.equals(current)) return false;
+            }
+            previous = current;
+        }
+        return true;
     }
 
-    private boolean checkFlash() {
+    private boolean checkFlush() {
         for (List<Card> cards : suitMap.values()) {
             int size = cards.size();
             if (size >= 5) {

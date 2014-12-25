@@ -16,12 +16,12 @@ import java.util.List;
 public class MainTest {
     public static void main(String[] args) throws IOException {
         // testImage();
-        //testFileParser();
-        testStraight();
+        testFileParser();
+        //      testStraight();
     }
 
     private static void testStraight() {
-        String[] cards = {"2h", "3h", "4h", "5h", "6h", "7c"};
+        String[] cards = {"2c", "3h", "4h", "5h", "6h", "Ah"};
         HandImpl hand = new HandImpl();
         for (String card : cards) {
             hand.setCards(Card.parse(card));
@@ -29,7 +29,6 @@ public class MainTest {
         System.out.println(cards);
         System.out.println(hand.getType());
         System.out.println(hand.getBestHand());
-
     }
 
     private static void testFileParser() throws IOException {
