@@ -15,9 +15,16 @@ import java.util.List;
 
 public class MainTest {
     public static void main(String[] args) throws IOException {
-        // testImage();
-        testFileParser();
-        //      testStraight();
+      testImage();
+//      testStraight();
+
+        GameService service = new GameService();
+        List<Game> games = service.getAllGames();
+
+ //       analyze(games);
+
+//        parseAllHands(games);
+
     }
 
     private static void testStraight() {
@@ -31,31 +38,26 @@ public class MainTest {
         System.out.println(hand.getBestHand());
     }
 
-    private static void testFileParser() throws IOException {
-        GameService service = new GameService();
-//        analyze(service.getAllGames());
-//        testHand(service.getAllGames().get(4));
+    private static void parseAllHands(List<Game> games) throws IOException {
         int count = 0;
-        for (Game game : service.getAllGames()) {
+        for (Game game : games) {
             testHand(game);
             count++;
         }
         System.out.println(count);
-
-
     }
 
     private static void testHand(Game game) {
         List<Card> handCards = game.getPreFlop().getCards();
-        ArrayList<Card> table = new ArrayList<>();
+        ArrayList<Card> cards = new ArrayList<>();
         for (Street street : game.getStreetList()) {
-            table.addAll(street.getCards());
+            cards.addAll(street.getCards());
         }
         HandImpl hand = new HandImpl(handCards);
-        if (table.size() == 0) return;
-        hand.setCards(table);
-        Collections.sort(table);
-        System.out.println(handCards + ", " + table);
+        if (cards.size() == 0) return;
+        hand.setCards(cards);
+        Collections.sort(cards);
+        System.out.println(handCards + ", " + cards);
         System.out.println(hand.getType());
         System.out.println(hand.getBestHand());
         System.out.println(hand.PlayerCardsTakePart());
@@ -66,34 +68,36 @@ public class MainTest {
         int count = 0;
         for (Game game : games) {
             Street preFlop = game.getPreFlop();
+            List<Card> cards = preFlop.getCards();
             int playerIndex = preFlop.getPlayerIndex(game.getPlayerName());
             Player player = preFlop.getPlayer(playerIndex);
             Move move = player.getMoves().getLast();
             State state = move.getState();
 
-            if (preFlop.getCards().get(1).getRank().toString().equals("A")) {
-                //  if (preFlop.getCards().get(0).getRank().toString().equalsIgnoreCase(preFlop.getCards().get(1).getRank().toString())) {
-                if (state != State.FOLD
-                        && state != State.BIG_BLIND
-                        && state != State.CHECK
-                    // && (player.getMoves().getLast().getBet() > game.getBigBlind())
-                        ) {
-                    //if (state == State.BIG_BLIND) {
-                    //if (true) {
-                    count++;
-                    System.out.println(" bb " + game.getBigBlind() + " stack " + player.getStack() +
-                            " " + preFlop.getCards() +
-                            " " + state + " " + move.getBet() + " " + move.getStack() +
-                            " ");
-                }
+            // if (cards.get(1).getRank().toString().equals("A")) {
+            if (cards.get(0).getRank().equals(cards.get(1).getRank())) {
+
+                //if (state != State.FOLD
+                //  && state != State.BIG_BLIND
+                //   && state != State.CHECK
+                //       && (move.getBet() > game.getBigBlind())
+
+                count++;
+                System.out.println("bb " + game.getBigBlind() +
+                        " stack " + move.getStack() +
+                        " " + cards +
+                        " " + state +
+                        " " + move.getBet() / Float.valueOf(game.getBigBlind()) +
+                        " " + move.getBet());
             }
         }
+
         System.out.println("number: " + count);
     }
 
     static void testImage() {
         try {
-            BufferedImage image = ImageIO.read(new File("images/test/all.png"));
+            BufferedImage image = ImageIO.read(new File("images/test/bank.png"));
 
             List<Player> playerList = new ArrayList<>();
 
