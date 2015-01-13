@@ -16,7 +16,7 @@ public enum Suit {
         for (Suit suit : Suit.values()) {
             if (s.equalsIgnoreCase(suit.value)) return suit;
         }
-        throw new RuntimeException("wrong suit" + s);
+        throw new RuntimeException("wrong suit " + s);
     }
 
     @Override

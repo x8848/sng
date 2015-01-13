@@ -69,8 +69,11 @@ public class HandImpl implements Hand {
 
         if (sizes.contains(4)) {
             bestHand = new ArrayList<>();
-            bestHand.addAll(rankMap.get(sizeMap.get(4).getLast()));
-            bestHand.add(rankMap.lastEntry().getValue().get(0));
+            Rank rank = sizeMap.get(4).getLast();
+            bestHand.addAll(rankMap.get(rank));
+            Card card = rankMap.lastEntry().getValue().get(0);
+            // check lower Entry , could be null
+            bestHand.add(card.getRank().equals(rank) ? rankMap.lowerEntry(rank).getValue().get(0) : card);
             return HandType.Quads;
         }
         if (sizes.contains(3)) {
@@ -150,7 +153,7 @@ public class HandImpl implements Hand {
 
         Iterator<Rank> iterator = rankMap.keySet().iterator();
         Rank previous = null;
-        List<Card> straightCards = new ArrayList<>();
+        LinkedList<Card> straightCards = new LinkedList<>();
 
         while (iterator.hasNext()) {
             Rank current = iterator.next();
@@ -166,26 +169,38 @@ public class HandImpl implements Hand {
                 straightCards.add(rankMap.get(current).get(0));
             } else {
                 if (straightCards.size() >= 4) break;
-                straightCards = new ArrayList<>();
+                straightCards = new LinkedList<>();
             }
             previous = current;
         }
 
-        int size = straightCards.size();
+        if ((straightCards.getFirst().getRank() == Rank.Two) && (rankMap.keySet().contains(Rank.Ace))) {
+            List<Card> aces = rankMap.get(Rank.Ace);
+            Card ace = aces.get(0);
 
-        if ((size == 4) && (straightCards.get(0).getRank() == Rank.Two) && (rankMap.keySet().contains(Rank.Ace))) {
-            bestHand = new ArrayList<>();
-            bestHand.addAll(straightCards);
-            bestHand.add(rankMap.get(Rank.Ace).get(0));
-            return HandType.Straight;
+            if (aces.size() > 1) {
+                if (isItFlushOrDraw(straightCards.subList(0, 4))) {
+                    Suit suit = straightCards.getFirst().getSuit();
+
+                    for (Card card : aces) {
+                        if (card.getSuit().equals(suit)) {
+                            ace = card;
+                            break;
+                        }
+                    }
+                }
+            }
+            straightCards.addFirst(ace);
         }
+
+        int size = straightCards.size();
 
         if (size >= 5) {
             LinkedList<List<Card>> flushList = new LinkedList<>();
 
             for (int i = 0; i <= size - 5; i++) {
                 bestHand = straightCards.subList(i, 5 + i);
-                if (isItFlush(bestHand)) {
+                if (isItFlushOrDraw(bestHand)) {
                     flushList.add(bestHand);
                 }
             }
@@ -195,10 +210,11 @@ public class HandImpl implements Hand {
             }
             return HandType.Straight;
         }
+
         return null;
     }
 
-    private boolean isItFlush(List<Card> cards) {
+    private boolean isItFlushOrDraw(List<Card> cards) {
         Iterator<Card> iterator = cards.iterator();
         Suit previous = null;
         while (iterator.hasNext()) {

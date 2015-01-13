@@ -15,26 +15,25 @@ import java.util.List;
 
 public class MainTest {
     public static void main(String[] args) throws IOException {
-      testImage();
-//      testStraight();
+//      testImage();
+        testStraight();
 
         GameService service = new GameService();
         List<Game> games = service.getAllGames();
 
- //       analyze(games);
-
+        //       analyze(games);
 //        parseAllHands(games);
 
     }
 
     private static void testStraight() {
-        String[] cards = {"2c", "3h", "4h", "5h", "6h", "Ah"};
+        String[] cards = {"Ac", "Kc", "Kd", "Qc", "Qh", "Qd", "Qc"};
         HandImpl hand = new HandImpl();
         for (String card : cards) {
             hand.setCards(Card.parse(card));
         }
-        System.out.println(cards);
-        System.out.println(hand.getType());
+        for (String card : cards) System.out.print(" " + card);
+        System.out.println("\n" + hand.getType());
         System.out.println(hand.getBestHand());
     }
 
