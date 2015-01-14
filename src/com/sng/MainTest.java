@@ -27,7 +27,7 @@ public class MainTest {
     }
 
     private static void testStraight() {
-        String[] cards = {"Ac", "Kc", "Kd", "Qc", "Qh", "Qd", "Qc"};
+        String[] cards = {"9c", "Tc", "Jd", "Qc", "Qh", "Qd", "Qc"};
         HandImpl hand = new HandImpl();
         for (String card : cards) {
             hand.setCards(Card.parse(card));

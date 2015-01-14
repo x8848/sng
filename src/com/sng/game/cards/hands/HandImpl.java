@@ -72,7 +72,6 @@ public class HandImpl implements Hand {
             Rank rank = sizeMap.get(4).getLast();
             bestHand.addAll(rankMap.get(rank));
             Card card = rankMap.lastEntry().getValue().get(0);
-            // check lower Entry , could be null
             bestHand.add(card.getRank().equals(rank) ? rankMap.lowerEntry(rank).getValue().get(0) : card);
             return HandType.Quads;
         }
